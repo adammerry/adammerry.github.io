@@ -1,0 +1,15 @@
+h1 {
+	color: blue;
+	font-size: 32px;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+
+h2 {
+	font-size: 32px;
+}
