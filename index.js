@@ -1,14 +1,14 @@
 $(document).ready(function(){
-    $("main").mouseenter(function() {
-       $(this).animate({
-           height: '+=10px'
-       });
-   });
-    $("img#richguy").slideDown("slow");
     $('img#richguy').mouseenter(function() {
-        $('img#richguy').fadeTo("fast",0.5);
+        $('img#richguy').fadeTo("slow",0);
+        $("img#richguy").slideDown("fast");
     });
     $("img#richguy").mouseleave(function() {
-        $('img#richguy').fadeTo("fast",1);
+        $('img#richguy').fadeTo("slow",1);
     });
+    $("nav").mouseenter(function() {
+       $(this).animate({
+           height: '-=10px'
+       });
+   });
 });
