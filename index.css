@@ -1,15 +1,96 @@
-h1 {
-	color: blue;
-	font-size: 32px;
+body {
+	color:#000000;
+	font-family: Palatino;
+	text-align: center;
+	background-color: #e6dedc;
+	margin: 0;
+  	justify-content: center;
 }
 
-body {
-	height: 100%;
+#page-wrap {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.background_img {
+	background-image: url("http://www.dimock.org/wp-content/uploads/2014/08/boston.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 500px;
+	width: 1000px;
+}
+
+
+nav {
+	background-color: #7ec0ee;
+	font-size: 16px;
+	font-family: 'Lucida Sans Unicode', "Lucida Grande", sans-serif;
+	font-weight: bold;
+}
+
+nav ul {
+	display: block;
+	font-weight: normal;
+}
+
+nav li {
 	margin: 0;
-	text-align: center;
-	width: 100%;
+	padding: 50px;
+	display: inline;
+	font-weight: normal;
+}
+
+img#richguy {
+	position: relative;
+	top: 10px;
+	padding: 1px;
+	border: 2px solid #000080;
+	border-radius: 25px;
+}
+
+.main {
+	padding: 10px;
+	color: #B29600;
+  	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+h1 {
+	border: 5px solid #4df67a;
+	padding: 400px;
+  	
 }
 
 h2 {
 	font-size: 32px;
+	color: DarkOliveGreen;
+	font-family: Palatino;
+	border: 2px dotted black;
+	padding: 2px;
+	background-color: #e7eedc;
+	margin: 20px auto 20px;
+	width: 160px;
+	font-style: italic;
+	
+}
+
+h2:active {
+	position: relative;
+	top: 2px;
+}
+
+h3 {
+	color:#a9100e;
+	font-size: 28px;
+	font-family: Palatino;
+	border: 2px dashed #34dc78;
+	margin-top: 10px;
+	margin-left: 12px;
+}
+
+#paragraph{
+	font-size: 18px;
+	color: #000000;
+	max-width: 800px;
+	margin: auto;
 }
