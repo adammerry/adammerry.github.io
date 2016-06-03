@@ -1,4 +1,4 @@
-$(document).ready(fucntion(){
+$(document).ready(function(){
     $("img#richguy").slideDown("slow");
     $('img#richguy').mouseenter(function() {
         $('img#richguy').fadeTo("fast",0.5);
