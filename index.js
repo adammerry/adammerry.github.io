@@ -5,6 +5,7 @@ $(document).ready(function(){
     });
     $("img#richguy").mouseleave(function(){
         $('img#richguy').fadeTo("slow",1);
+        $("img#richguy").slideUp("fast");
     });
     $("nav").mouseenter(function(){
         $(this).animate({
