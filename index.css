@@ -102,3 +102,11 @@ h3 {
     background-color: #F38630;
     border-radius: 5px;
 }
+
+	
+button{
+    margin: auto; 
+    position:relative;
+    top:50%; 
+    left:50%;
+}
