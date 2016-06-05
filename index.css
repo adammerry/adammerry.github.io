@@ -108,8 +108,8 @@ button{
 	display:block; /* change this from inline-block */
 	height: 40px;
 	top: 30px;
-	width: 80px;
-	left: 60px;
+	width: 100px;
+	left: 50px;
 	position:relative;
 	border-radius:2px;
 }
