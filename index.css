@@ -97,7 +97,7 @@ h3 {
 
 .vanish {
     height: 100px;
-    width: 100px;
+    width: 200px;
     display: inline-block;
     background-color: #F38630;
     border-radius: 5px;
@@ -108,7 +108,8 @@ button{
 	display:block; /* change this from inline-block */
 	height: 40px;
 	top: 30px;
-	left: 0%;
+	width: 80px;
+	left: 60px;
 	position:relative;
 	border-radius:2px;
 }
