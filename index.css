@@ -105,10 +105,9 @@ h3 {
 
 	
 button{
-   height:60px; 
-   width:100px; 
-   margin: -60px -50px; 
-   position:relative;
-   top:50%;
-   left:50%;
+	display:block; /* change this from inline-block */
+	margin:0 auto; /* this will center  it */
+	position:relative;
+	border-radius:2px;
+	background-color:#96aa39;
 }
