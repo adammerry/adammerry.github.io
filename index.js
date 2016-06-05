@@ -5,7 +5,7 @@ $(document).ready(function(){
     $("img#richguy").mouseleave(function(){
         $('img#richguy').fadeTo("slow",1);
     });
-    $("#paragraph").click(function(){
+    $("p").click(function(){
         $("this").slideDown("fast")
     });
     $('button').click(function() {
