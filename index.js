@@ -8,4 +8,7 @@ $(document).ready(function(){
     $('button').click(function(){
         $('.vanish').fadeOut("slow")
     });
+    $(".pull-me").click(function() {
+        $(".panel").slideToggle("slow");
+    });
 });
