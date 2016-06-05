@@ -8,4 +8,7 @@ $(document).ready(function(){
     $("#paragraph").click(function(){
         $("#paragraph").slideDown("fast")
     });
+    $('button').click(function() {
+        $('.vanish').fadeOut("slow")
+    });
 });
