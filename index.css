@@ -126,12 +126,15 @@ button{
 	left: 50px;
 	position:relative;
 	border-radius:2px;
-}
-
-#largecats{
+	font-size: 12px;
+	font-family: Georgia, serif;
 	
 }
 
-#cats{
+#largecats{
+	font-size: 12px;
 }
+
+#cats{
+	font-size: 18px;
 }
