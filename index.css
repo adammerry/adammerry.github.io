@@ -113,22 +113,3 @@ button{
 	position:relative;
 	border-radius:2px;
 }
-.slide {
-	margin:0;
-	padding:0;
-	border-top:solid 2px #cc0000;
-}
-.pull-me {
-	display:block;
-    position:relative;
-	font-family:arial,sans-serif;
-    font-size:14px;
-	color:#ffffff;
-    background:#cc0000;
-	text-decoration:none;
-    border-bottom-left-radius:5px;
-    border-bottom-right-radius:5px;
-}
-.pull-me p {
-    text-align:center;
-}
