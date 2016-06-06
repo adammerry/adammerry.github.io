@@ -133,8 +133,10 @@ button{
 
 #largecats{
 	font-size: 12px;
+	display: inline;
 }
 
 #cats{
 	font-size: 28px;
+	display: block;
 }
