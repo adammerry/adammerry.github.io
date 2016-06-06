@@ -97,7 +97,7 @@ h3 {
 
 #thanks{
 	font-size: 22px;
-	color: #F802BB;
+	color: #FFFF00;
 	max-width: 1000px;
 	margin: auto;
 }
@@ -125,7 +125,5 @@ img#northeastern {
 	position: center;
 	display: block;
 	top: 10px;
-	padding: 2px;
 	border: 2px solid #FF0000;
-	border-radius: 35px;
 }
