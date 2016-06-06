@@ -8,7 +8,4 @@ $(document).ready(function(){
     $('button').click(function(){
         $('.vanish').fadeOut("slow")
     });
-    $("#northeastern").mouseenter(function(){
-        $("#northeastern").slideDown("slow")
-    });
 });
