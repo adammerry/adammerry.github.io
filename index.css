@@ -122,7 +122,8 @@ button{
 }
 
 img#northeastern {
-	position: relative;
+	position: center;
+	display: block;
 	top: 10px;
 	padding: 2px;
 	border: 2px solid #FF0000;
