@@ -97,14 +97,14 @@ h3 {
 
 #paragraph{
 	font-size: 18px;
-	color: #4B0082;
+	color: #000000;
 	max-width: 800px;
 	margin: auto;
 }
 
 #thanks{
 	font-size: 22px;
-	color: #FFFF00;
+	color: #4B0082;
 	max-width: 1000px;
 	margin: auto;
 }
