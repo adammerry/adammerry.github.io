@@ -44,7 +44,7 @@ nav li {
 img#richguy {
 	position: relative;
 	top: 10px;
-	padding: 1px;
+	padding: 0px;
 	border: 2px solid #000080;
 	border-radius: 25px;
 }
@@ -113,3 +113,10 @@ button{
 	position:relative;
 	border-radius:2px;
 }
+
+img#northeastern {
+	position: relative;
+	top: 10px;
+	padding: 2px;
+	border: 2px solid #FF0000;
+	border-radius: 35px;
