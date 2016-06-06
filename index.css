@@ -95,6 +95,13 @@ h3 {
 	margin: auto;
 }
 
+#thanks{
+	font-size: 22px;
+	color: #F802BB;
+	max-width: 1000px;
+	margin: auto;
+}
+
 .vanish {
     height: 100px;
     width: 200px;
