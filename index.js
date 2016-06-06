@@ -8,7 +8,7 @@ $(document).ready(function(){
     $('button').click(function(){
         $('.vanish').fadeOut("slow")
     });
-    $("#n").mouseenter(function(){
-        $("#n").slideDown("slow")
+    $("#northeastern").mouseenter(function(){
+        $("#northeastern").slideDown("slow")
     });
 });
