@@ -110,11 +110,11 @@ h3 {
 }
 
 .vanish {
-    height: 100px;
-    width: 200px;
-    display: inline-block;
-    background-color: #F38630;
-    border-radius: 5px;
+	height: 100px;
+	width: 200px;
+	display: inline-block;
+	background-color: #F38630;
+	border-radius: 5px;
 }
 
 	
@@ -137,7 +137,7 @@ button{
 
 #largecats{
 	font-size: 12px;
-	display: inline;
+	display: block;
 }
 
 #lion{
@@ -145,5 +145,17 @@ button{
 }
 
 #tiger{
+	display:inline;
+}
+
+#jaguar{
+	display:inline;
+}
+
+#cheetah{
+	display:inline;	
+}
+
+#cougar{
 	display:inline;
 }
