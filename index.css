@@ -131,11 +131,19 @@ button{
 	
 }
 
+#cats{
+	font-size: 28px;
+}
+
 #largecats{
 	font-size: 12px;
 	display: inline;
 }
 
-#cats{
-	font-size: 28px;
+#lion{
+	display:inline;
+}
+
+#tiger{
+	display:inline;
 }
