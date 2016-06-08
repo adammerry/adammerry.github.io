@@ -68,6 +68,7 @@ img#northeastern {
 	border: 6px solid #FF0000;
 }
 
+/* holds the about me thing */
 h2 {
 	font-size: 32px;
 	color: DarkOliveGreen;
@@ -81,6 +82,7 @@ h2 {
 	
 }
 
+/* when about me is clicked */
 h2:active {
 	position: relative;
 	top: 2px;
@@ -95,6 +97,7 @@ h3 {
 	margin-left: 12px;
 }
 
+/* paragraph explaining who I am */
 #paragraph{
 	font-size: 18px;
 	color: #000000;
@@ -102,6 +105,7 @@ h3 {
 	margin: auto;
 }
 
+/* thanks for visiting my website paragraph */
 #thanks{
 	font-size: 22px;
 	color: #4B0082;
@@ -109,6 +113,7 @@ h3 {
 	margin: auto;
 }
 
+/* holds button that dissapears */
 .vanish {
 	height: 100px;
 	width: 200px;
@@ -117,7 +122,7 @@ h3 {
 	border-radius: 5px;
 }
 
-	
+/* is button that dissapears */	
 button{
 	display:block; /* change this from inline-block */
 	height: 40px;
@@ -131,15 +136,18 @@ button{
 	
 }
 
+/* types of large cats paragraph */
 #cats{
 	font-size: 28px;
 }
 
+/* holds pics of large cats */
 #largecats{
 	font-size: 12px;
 	display: block;
 }
 
+/* class for each animal pic */
 .animalpic{
 	display: inline-block;
 	position: relative;
@@ -147,20 +155,23 @@ button{
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ 	display: none;
+  	position: absolute;
+    	background-color: #f9f9f9;
+    	min-width: 160px;
+    	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+    	color: black;
+    	padding: 12px 16px;
+    	text-decoration: none;
+    	display: block;
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+	
+}
