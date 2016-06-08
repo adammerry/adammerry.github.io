@@ -11,7 +11,7 @@ $(document).ready(function(){
     $(".animalpic").mouseenter(function(){
         $("#myLionDropDown").toggle("slow");
     });
-    $("animalpic").mouseleave(function(){
+    $(".animalpic").mouseleave(function(){
         $("#myLionDropDown").toggle("slow");
     }
 });
