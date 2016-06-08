@@ -1,3 +1,8 @@
+html {
+ 	min-width: 100%;
+  	min-height: 100%;
+}
+
 body {
 	color:#000000;
 	font-family: Palatino;
@@ -5,6 +10,7 @@ body {
 	background-color: #e6dedc;
 	margin: 0;
   	justify-content: center;
+  	height: 2500px;
 }
 
 #page-wrap {
@@ -158,8 +164,7 @@ button{
  	display: none;
   	position: absolute;
     	background-color: #f9f9f9;
-    	min-width: 160px;
-    	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
 }
 
 /* Links inside the dropdown */
