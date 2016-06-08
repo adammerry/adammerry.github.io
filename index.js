@@ -26,4 +26,16 @@ $(document).ready(function(){
     $("#jaguar").mouseleave(function(){
         $("#myJaguarDropDown").toggle("slow");
     });
+    $("#cheetah").mouseenter(function(){
+        $("#myCheetahDropDown").toggle("slow");
+    });
+    $("#cheetah").mouseleave(function(){
+        $("#myCheetahDropDown").toggle("slow");
+    });
+    $("#cougar").mouseenter(function(){
+        $("#myCougarDropDown").toggle("slow");
+    });
+    $("#cougar").mouseleave(function(){
+        $("#myCougarDropDown").toggle("slow");
+    });
 });
