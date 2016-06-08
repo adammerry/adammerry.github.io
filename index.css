@@ -72,6 +72,7 @@ img#northeastern {
 	margin: auto;
 	top: 10px;
 	border: 6px solid #FF0000;
+	box-shadow: 10px 10px 5px grey;
 }
 
 /* holds the about me thing */
@@ -145,6 +146,7 @@ button{
 /* types of large cats paragraph */
 #cats{
 	font-size: 28px;
+	text-shadow: 2px 2px 5px red;
 }
 
 /* holds pics of large cats */
