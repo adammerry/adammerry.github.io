@@ -140,22 +140,27 @@ button{
 	display: block;
 }
 
-#lion{
-	display:inline;
+.animalpic{
+	display: inline-block;
+	position: relative;
 }
 
-#tiger{
-	display:inline;
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-#jaguar{
-	display:inline;
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
 
-#cheetah{
-	display:inline;	
-}
-
-#cougar{
-	display:inline;
-}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
