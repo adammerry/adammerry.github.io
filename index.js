@@ -13,5 +13,5 @@ $(document).ready(function(){
     });
     $(".animalpic").mouseleave(function(){
         $("#myLionDropDown").toggle("slow");
-    }
+    });
 });
