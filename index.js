@@ -8,22 +8,22 @@ $(document).ready(function(){
     $('button').click(function(){
         $('.vanish').fadeOut("slow");
     });
-    $("img#lionpic").mouseenter(function(){
+    $("#lion").mouseenter(function(){
         $("#myLionDropDown").toggle("slow");
     });
-    $("img#lionpic").mouseleave(function(){
+    $("#lion").mouseleave(function(){
         $("#myLionDropDown").toggle("slow");
     });
-    $("img#tigerpic").mouseenter(function(){
+    $("#tiger").mouseenter(function(){
         $("#myTigerDropDown").toggle("slow");
     });
-    $("img#tigerpic").mouseleave(function(){
+    $("#tiger").mouseleave(function(){
         $("#myTigerDropDown").toggle("slow");
     });
-    $("img#jaguarpic").mouseenter(function(){
+    $("#jaguar").mouseenter(function(){
         $("#myJaguarDropDown").toggle("slow");
     });
-    $("img#jaguarpic").mouseleave(function(){
+    $("#jaguar").mouseleave(function(){
         $("#myJaguarDropDown").toggle("slow");
     });
 });
