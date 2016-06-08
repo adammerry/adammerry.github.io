@@ -6,9 +6,12 @@ $(document).ready(function(){
         $('img#richguy').fadeTo("slow",1);
     });
     $('button').click(function(){
-        $('.vanish').fadeOut("slow")
+        $('.vanish').fadeOut("slow");
     });
     $(".animalpic").mouseenter(function(){
-        $("#myLionDropDown").toggle();
+        $("#myLionDropDown").toggle("slow");
     });
+    $("animalpic").mouseleave(function(){
+        $("#myLionDropDown").toggle("slow");
+    }
 });
