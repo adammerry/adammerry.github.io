@@ -8,10 +8,10 @@ $(document).ready(function(){
     $('button').click(function(){
         $('.vanish').fadeOut("slow");
     });
-    $(".animalpic").mouseenter(function(){
+    $("#myLionDropDown").mouseenter(function(){
         $("#myLionDropDown").toggle("slow");
     });
-    $(".animalpic").mouseleave(function(){
+    $("#myLionDropDown").mouseleave(function(){
         $("#myLionDropDown").toggle("slow");
     });
 });
