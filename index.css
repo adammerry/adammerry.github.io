@@ -159,6 +159,7 @@ button{
 .animalpic{
 	display: inline-block;
 	position: relative;
+	margin: 5px;
 }
 
 /* Dropdown Content (Hidden by Default) */
