@@ -149,6 +149,10 @@ button{
 	text-shadow: 1px 1px 2px purple;
 }
 
+#mini-me{
+	font-size: 18px;
+}
+
 /* holds pics of large cats */
 #largecats{
 	font-size: 12px;
