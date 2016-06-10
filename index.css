@@ -184,3 +184,34 @@ button{
 	background-color: #ADD8E6
 	
 }
+
+/* Text to introduce list */
+h3 {
+    	font-family:"Courier New", Courier, monospace
+	color: #2ECCC9
+}
+
+/* Where the input is */
+form {
+    	display: inline-block;
+}
+
+/* Adding button */
+#button{
+    	display: inline-block;
+    	height:30px;
+	width:90px;
+	background-color:#f5d6f5;
+	font-family:arial;
+	font-weight:bold;
+	color:#000066;
+	border-radius: 12px;
+	text-align:center;
+	margin-top:2px;
+}
+
+/* list of things */
+.list {
+	font-family:garamond;
+	color:#f5d6f5;
+}
