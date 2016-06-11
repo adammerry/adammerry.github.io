@@ -178,7 +178,7 @@ button{
 
 /* Text to introduce list */
 h3 {
-    	font-family:"Courier New", Courier, monospace
+    	font-family:"Courier New", Courier, monospace;
 	color: #2ECCC9;
 	font-size: 18px;
 	border: 2px dashed #34dc78;
