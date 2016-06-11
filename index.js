@@ -45,10 +45,10 @@ $(document).ready(function(){
     $(document).on("click",".item",function(){
         $(this).remove();
     });
-    $("img#bisonpic").click(function(){
+    $("img#bisonpic").mouseenter(function(){
         $(".moreanimals").append("<p>Here I can write some bison information.</p>");
     });
-    $("img#bisonpic").click(function(){
+    $("img#bisonpic").mouseleave(function(){
         $(".moreanimals").children("p").remove();
     });
 });
