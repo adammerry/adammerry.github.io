@@ -39,10 +39,10 @@ $(document).ready(function(){
         $("#myCougarDropDown").toggle("slow");
     });
     $("#addbutton").click(function(){
-    var toAdd = $("input[name=checkListItem]").val();
-    $(".list").append("<div class='item'>" + toAdd + "</div>");
+        var toAdd = $("input[name=checkListItem]").val();
+        $(".list").append("<div class='item'>" + toAdd + "</div>");
     });
-        $(document).on("click",".item",function(){
+    $(document).on("click",".item",function(){
         $(this).remove();
     });
 });
