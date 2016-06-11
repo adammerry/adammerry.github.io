@@ -111,15 +111,6 @@ h2:active {
 	margin: auto;
 }
 
-h3 {
-	color:#a9100e;
-	font-size: 18px;
-	font-family: Palatino;
-	border: 2px dashed #34dc78;
-	margin-top: 10px;
-	margin-left: 12px;
-	margin-right: 12px;
-}
 /* holds button that dissapears */
 .vanish {
 	height: 100px;
@@ -189,6 +180,12 @@ button{
 h3 {
     	font-family:"Courier New", Courier, monospace
 	color: #2ECCC9
+	font-size: 18px;
+	border: 2px dashed #34dc78;
+	margin-top: 10px;
+	margin-left: 12px;
+	margin-right: 12px;
+	
 }
 
 /* Where the input is */
