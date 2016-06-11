@@ -38,7 +38,7 @@ $(document).ready(function(){
     $("#cougar").mouseleave(function(){
         $("#myCougarDropDown").toggle("slow");
     });
-    $("#button").click(function(){
+    $("#addbutton").click(function(){
     var toAdd = $("input[name=checkListItem]").val();
     $(".list").append("<div class='item'>" + toAdd + "</div>");
     });
