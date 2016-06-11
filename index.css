@@ -179,12 +179,12 @@ button{
 /* Text to introduce list */
 h3 {
     	font-family:"Courier New", Courier, monospace
-	color: #2ECCC9
+	color: #2ECCC9;
 	font-size: 18px;
 	border: 2px dashed #34dc78;
 	margin-top: 10px;
-	margin-left: 12px;
-	margin-right: 12px;
+	margin-left: 30px;
+	margin-right: 30px;
 	
 }
 
