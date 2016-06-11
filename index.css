@@ -95,15 +95,6 @@ h2:active {
 	top: 2px;
 }
 
-h3 {
-	color:#a9100e;
-	font-size: 28px;
-	font-family: Palatino;
-	border: 2px dashed #34dc78;
-	margin-top: 10px;
-	margin-left: 12px;
-}
-
 /* paragraph explaining who I am */
 #paragraph{
 	font-size: 18px;
@@ -120,6 +111,14 @@ h3 {
 	margin: auto;
 }
 
+h3 {
+	color:#a9100e;
+	font-size: 16px;
+	font-family: Palatino;
+	border: 2px dashed #34dc78;
+	margin-top: 10px;
+	margin-left: 12px;
+}
 /* holds button that dissapears */
 .vanish {
 	height: 100px;
