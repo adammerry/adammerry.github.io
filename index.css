@@ -218,9 +218,12 @@ form {
 }
 
 /* class containing names of the other animals */
-.moreanimalsparagraph {
-	
+h4 {
+	color: #000080;
+	font-size: 20px;
 }
 
 img#bisonpic {
+	border: 2px solid #000080;
+	border-radius: 16px;
 }
