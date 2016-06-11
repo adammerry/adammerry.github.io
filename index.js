@@ -46,7 +46,7 @@ $(document).ready(function(){
         $(this).remove();
     });
     $("img#bisonpic").mouseenter(function(){
-        $(".moreanimals").append("<p>Here I can write some bison information.</p>");
+        $(".moreanimals").append("<p> What many people often refer to as 'Buffaloes', are actually Bison. These massive animals are more related to cows and goats than they are to true Buffaloes, which are found in Asia and Africa. Although Bison are the heaviest land mammals in North America, they can run up to 40mph and jump up to 6 feet high.</p>");
     });
     $("img#bisonpic").mouseleave(function(){
         $(".moreanimals").children("p").remove();
