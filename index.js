@@ -48,4 +48,7 @@ $(document).ready(function(){
     $("img#bisonpic").click(function(){
         $(".moreanimals").append("<p>Here I can write some bison information.</p>");
     });
+    $("img#bisonpic").click(function(){
+        $(".moreanimals").children("p").remove();
+    });
 });
