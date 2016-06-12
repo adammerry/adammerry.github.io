@@ -213,8 +213,8 @@ form {
 	color:#cc0000;
 }
 
-/* class containing all the other animals besides large cats */
-.moreanimals {
+/* bison class */
+.bison {
 }
 
 /* class containing names of the other animals */
@@ -224,6 +224,11 @@ h4 {
 }
 
 img#bisonpic {
+	border: 2px solid #000080;
+	border-radius: 16px;
+}
+
+img#ostrichpic {
 	border: 2px solid #000080;
 	border-radius: 16px;
 }
