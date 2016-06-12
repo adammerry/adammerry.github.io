@@ -213,10 +213,6 @@ form {
 	color:#cc0000;
 }
 
-/* bison class */
-.bison {
-}
-
 /* class containing names of the other animals */
 h4 {
 	color: #000080;
@@ -229,6 +225,11 @@ img#bisonpic {
 }
 
 img#ostrichpic {
+	border: 2px solid #000080;
+	border-radius: 16px;
+}
+
+img#goatpic {
 	border: 2px solid #000080;
 	border-radius: 16px;
 }
