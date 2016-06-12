@@ -191,6 +191,7 @@ h3 {
 /* Where the input is */
 form {
     	display: inline-block;
+    	cursor:pointer;
 }
 
 /* Adding button */
@@ -205,12 +206,14 @@ form {
 	border-radius: 12px;
 	text-align:center;
 	margin-top:2px;
+	cursor:pointer;
 }
 
 /* list of things */
 .list {
 	font-family:garamond;
 	color:#cc0000;
+	cursor:pointer;
 }
 
 /* class containing names of the other animals */
