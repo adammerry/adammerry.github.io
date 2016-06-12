@@ -52,9 +52,15 @@ $(document).ready(function(){
         $(".bison").children("p").remove();
     });
     $("img#ostrichpic").mouseenter(function(){
-        $(".ostrich").append("<p>Ostriches are the worlds largest birds. Despite their size and the fact that they have 3 stomachs, </p>");
+        $(".ostrich").append("<p>Ostriches are the worlds largest birds. Despite their size and the fact that they have 3 stomachs, ostriches can reach speeds of over 40mph. While their brains may be tiny, they are capable of seeing predators at long distances due to having the largest eyes of any land mammal.</p>");
     });
     $("img#ostrichpic").mouseleave(function(){
         $(".ostrich").children("p").remove();
+    });
+    $("img#goatpic").mouseenter(function(){
+        $(".goat").append("<p>Goats have amazing coordination, and have been known to climb trees as well as the sides of cliffs. Goats are also responsible for the discovery of coffee. This happened when an Ethiopian herder noticed his goats becoming more energetic after eating from a coffee bush.</p>");
+    });
+    $("img#goatpic").mouseleave(function(){
+        $(".goat").children("p").remove();
     });
 });
