@@ -63,4 +63,10 @@ $(document).ready(function(){
     $("img#goatpic").mouseleave(function(){
         $(".goat").children("p").remove();
     });
+    $(".vanish").hover(function(){
+        $(this).addClass('active');
+    },
+    function(){
+        $(this).removeClass('active');
+    });
 });
