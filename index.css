@@ -236,3 +236,7 @@ img#goatpic {
 	border: 2px solid #000080;
 	border-radius: 16px;
 }
+
+.active {
+	background-color: #FFFF00;
+}
