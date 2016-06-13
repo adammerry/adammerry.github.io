@@ -63,4 +63,7 @@ $(document).ready(function(){
     $("img#goatpic").mouseleave(function(){
         $(".goat").children("p").remove();
     });
+    $("img#northeastern").click(function(){
+        $("img#northeastern").after("<p>Go Huskies</p>");
+    });
 });
