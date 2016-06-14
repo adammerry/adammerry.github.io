@@ -240,8 +240,3 @@ img#goatpic {
 .active {
 	background-color: #FFFF00;
 }
-
-/* when I want stuff to be inline */
-.inline {
-	display: inline;
-}
