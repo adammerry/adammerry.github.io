@@ -77,7 +77,6 @@ $(document).ready(function(){
 				break;
 			// Up Arrow Pressed
 			case 38:
-				// Put our code here
 				$("img#northeasten").animate({top: "-=10px"}, "fast");
 				break;
 			// Right Arrow Pressed
@@ -86,7 +85,6 @@ $(document).ready(function(){
 				break;
 			// Down Arrow Pressed
 			case 40:
-				// Put our code here
 				$("img#northeastern").animate({top: "+=10px"}, "fast");
 				break;
 		}
