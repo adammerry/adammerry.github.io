@@ -10,7 +10,7 @@ body {
 	background-color: #e6dedc;
 	margin: 0;
   	justify-content: center;
-  	height: 2500px;
+  	height: 3000px;
 }
 
 #page-wrap {
@@ -239,4 +239,9 @@ img#goatpic {
 
 .active {
 	background-color: #FFFF00;
+}
+
+/* when I want stuff to be inline */
+.inline {
+	display: inline;
 }
