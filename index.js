@@ -69,23 +69,11 @@ $(document).ready(function(){
     function(){
         $(this).removeClass('active');
     });
-    $("img#northeastern").keydown(function(key) {
-        switch(parseInt(key.which,10)) {
-		// Left arrow key pressed
-		case 37:
-			$("img#northeastern").animate({left: "-=10px"}, "fast");
-				break;
-		// Up Arrow Pressed
-		case 38:
-			$("img#northeastern").animate({top: "-=10px"}, "fast");
-				break;
-		case 39:
-			$("img#northeastern").animate({left: "+=10px"}, "fast");
-				break;
-		case 40:
-			$("img#northeastern").animate({top: "+=10px"}, "fast");
-				break;
-		}
-	});
+    $("img#cowpic").mouseenter(function(){
+    	$(this).animate({left:"+=10px"},500);
+    });
+    $("imgcowpic").mouseleave(function(){
+    	$(this).animate({left:"-=10px"},500);
+    });
 });
 
