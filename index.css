@@ -73,7 +73,7 @@ img#northeastern {
 	top: 10px;
 	border: 6px solid #FF0000;
 	box-shadow: 10px 10px 5px grey;
-	position: absolute;
+	position: relative;
 	z-index: 100;
 }
 
