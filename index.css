@@ -243,6 +243,7 @@ img#goatpic {
 
 img#cowpic {
 	position: absolute;
-	top: 2800px;
-	left: 500px;
+	top: 280px;
+	left: 50px;
+	z-index: 100;
 }
