@@ -69,10 +69,11 @@ $(document).ready(function(){
     function(){
         $(this).removeClass('active');
     });
-    $("img#cowpic").mouseenter(function(){
+    
+    $("img#cowpic").hover(function(){
     	$(this).animate({top:"+=10px"},500);
-    });
-    $("imgcowpic").mouseleave(function(){
+    },
+    function(){
     	$(this).animate({top:"-=10px"},500);
     });
 });
