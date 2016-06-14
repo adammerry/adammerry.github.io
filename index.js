@@ -70,10 +70,10 @@ $(document).ready(function(){
         $(this).removeClass('active');
     });
     $("img#cowpic").mouseenter(function(){
-    	$(this).animate({left:"+=10px"},500);
+    	$(this).animate({top:"+=10px"},500);
     });
     $("imgcowpic").mouseleave(function(){
-    	$(this).animate({left:"-=10px"},500);
+    	$(this).animate({top:"-=10px"},500);
     });
 });
 
