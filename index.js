@@ -79,5 +79,6 @@ $(document).ready(function(){
     $("img#northeastern").click(function(){
         $(this).effect("explode");
     });
+    $("#menu").accordion({collapsible: true, active: false});
 });
 
