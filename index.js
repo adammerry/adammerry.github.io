@@ -76,5 +76,8 @@ $(document).ready(function(){
     function(){
     	$(this).animate({top:"-=10px"},500);
     });
+    $("img#northeastern").click(function(){
+        $(this).effect("explode");
+    });
 });
 
