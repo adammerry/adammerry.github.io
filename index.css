@@ -248,3 +248,8 @@ img#cowpic {
 	left: 5px;
 	z-index: 100;
 }
+
+.accordion {
+	color: #006400;
+	font-size: 18px;
+}
