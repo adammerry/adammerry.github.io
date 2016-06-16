@@ -179,14 +179,14 @@ button{
 /* Text to introduce list */
 h3 {
     	font-family:"Courier New", Courier, monospace;
-	color: #AFAFAF;
+	color: #545454;
 	font-size: 18px;
-	border: 1px #000000;
+	border: 2px #000000;
 	margin-top: 10px;
 	margin-left: 26px;
 	margin-right: 200px;
 	text-align: left;
-	
+	cursor: pointer;
 }
 
 /* Where the input is */
