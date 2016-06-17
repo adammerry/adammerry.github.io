@@ -80,10 +80,10 @@ $(document).ready(function(){
     $("img#dynamite").click(function(){
         $(this).effect("explode");
     });
-        var width = $(document).width();
+        var halfwidth = $(document).width() / 2;
 
     function goRight(){
-        $("#snake").animate({left: width}, 5000, function(){
+        $("#snake").animate({left: halfwidth}, 5000, function(){
          setTimeout(goLeft, 50);
       });
     }
@@ -92,6 +92,6 @@ $(document).ready(function(){
          setTimeout(goRight, 50);
       });
     }
-    /*setTimeout(goRight, 50);*/
+    setTimeout(goRight, 50);
 });
 
