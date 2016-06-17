@@ -93,6 +93,5 @@ $(document).ready(function(){
       });
     }
     setTimeout(goRight, 50);
-    slidewidth
 });
 
