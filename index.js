@@ -92,6 +92,6 @@ $(document).ready(function(){
          setTimeout(goRight, 50);
       });
     }
-    setTimeout(goRight, 50);
+    /*setTimeout(goRight, 50);*/
 });
 
