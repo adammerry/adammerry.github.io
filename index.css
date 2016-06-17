@@ -253,3 +253,11 @@ img#cowpic {
 	color: #006400;
 	font-size: 18px;
 }
+
+#snake {
+    position: relative;
+    border; 1px solid green;
+    background: yellow;
+    width: 200px;
+    height: 100px;
+}
