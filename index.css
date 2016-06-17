@@ -256,7 +256,7 @@ img#cowpic {
 
 #snake {
     position: relative;
-    border; 1px solid green;
+    border: 1px solid green;
     background: yellow;
     width: 200px;
     height: 100px;
