@@ -80,7 +80,7 @@ $(document).ready(function(){
     $("img#dynamite").click(function(){
         $(this).effect("explode");
     });
-        var slidewidth = $(window).width();
+        var slidewidth = $(window).width() / 2;
 
     function goRight(){
         $("#snake").animate({left: slidewidth}, 5000, function(){
@@ -93,5 +93,6 @@ $(document).ready(function(){
       });
     }
     setTimeout(goRight, 50);
+    slidewidth
 });
 
