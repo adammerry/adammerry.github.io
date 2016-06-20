@@ -261,3 +261,7 @@ img#cowpic {
     width: 200px;
     height: 100px;
 }
+
+#light {
+	display: inline-block;
+}
