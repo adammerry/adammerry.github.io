@@ -265,3 +265,8 @@ img#cowpic {
 #light {
 	display: block;
 }
+
+#lightbulb {
+	width: 100px;
+	height: 200px;
+}
