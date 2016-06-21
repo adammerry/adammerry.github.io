@@ -115,10 +115,15 @@ $(document).ready(function(){
     } 
 
     if(mm<10) {
-    mm="0"+mm
+        mm="0"+mm
     } 
-
-    today = m+":"+h+" "+dayofweek+", "+mm+"/"+dd+"/"+yyyy;
+    
+    if(h>12) {
+        h = h-12;
+    }
+    else if(h === 0) {
+        h = 12;
+    }
+    today = h+":"+m+" "+dayofweek+", "+mm+"/"+dd+"/"+yyyy;
     document.getElementById("date").innerHTML = today;
-    });
-
+});
