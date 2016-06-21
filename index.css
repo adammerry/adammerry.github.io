@@ -265,6 +265,7 @@ img#cowpic {
 #light {
 	display: inline;
 	width: 100%;
+	text-align: center;
 }
 
 #lightbulb {
