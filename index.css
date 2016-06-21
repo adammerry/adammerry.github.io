@@ -269,9 +269,9 @@ img#cowpic {
 #lightbulb {
 	width: 100px;
 	height: 200px;
+	padding: 0px;
 }
 
 td {
- 	border: 1px solid black;
  	padding-right: 100px;
 }
