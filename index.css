@@ -263,7 +263,7 @@ img#cowpic {
 }
 
 #light {
-	display: block;
+	display: inline;
 }
 
 #lightbulb {
