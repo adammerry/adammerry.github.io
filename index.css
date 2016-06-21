@@ -273,8 +273,6 @@ img#cowpic {
 
 td {
  	border: 1px solid black;
-}
-
-.lbb {
-	display: inline-block;
+ 	margin: auto;
+	display: block;
 }
