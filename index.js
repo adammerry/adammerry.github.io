@@ -94,7 +94,7 @@ $(document).ready(function(){
     }
     setTimeout(goRight, 50);
     
-    var d = new Date();
+    var d = new Date("03/25/2015");
     document.getElementById("date").innerHTML = d.toDateString();
 });
 
