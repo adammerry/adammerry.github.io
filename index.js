@@ -95,6 +95,6 @@ $(document).ready(function(){
     setTimeout(goRight, 50);
     
     var d = new Date();
-    document.getElementById("date").innerHTML = d;
+    document.getElementById("date").innerHTML = d.toDateString();
 });
 
