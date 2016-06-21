@@ -269,7 +269,7 @@ img#cowpic {
 #lightbulb {
 	width: 100px;
 	height: 200px;
-	padding: 0px;
+	padding-right: 0px;
 }
 
 td {
