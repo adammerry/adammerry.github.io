@@ -94,6 +94,7 @@ $(document).ready(function(){
     }
     setTimeout(goRight, 50);
 
+    document.body.onload="setInterval('updateTime()',1000)"
     var today = new Date();
     var s = today.getSeconds();
     var m = today.getMinutes();
@@ -119,6 +120,9 @@ $(document).ready(function(){
         mm="0"+mm
     } 
     
+    if(m<10) {
+        m="0"+m
+    }
     if(h>12) {
         h = h-12;
     }
