@@ -95,6 +95,8 @@ $(document).ready(function(){
     setTimeout(goRight, 50);
 
     var today = new Date();
+    var m = today.getMinutes();
+    var h = today.getHours();
     var dd = today.getDate();
     var mm = today.getMonth()+1; //January is 0!
     var yyyy = today.getFullYear();
@@ -116,7 +118,7 @@ $(document).ready(function(){
     mm="0"+mm
     } 
 
-    today = dayofweek+", "+mm+"/"+dd+"/"+yyyy;
+    today = m+":"+h+" "+dayofweek+", "+mm+"/"+dd+"/"+yyyy;
     document.getElementById("date").innerHTML = today;
     });
 
