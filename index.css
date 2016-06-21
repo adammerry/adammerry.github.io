@@ -270,3 +270,7 @@ img#cowpic {
 	width: 100px;
 	height: 200px;
 }
+
+td {
+	width: 33%;
+}
