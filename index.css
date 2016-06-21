@@ -255,11 +255,11 @@ img#cowpic {
 }
 
 #snake {
-    position: relative;
-    border: 1px solid green;
-    background: yellow;
-    width: 200px;
-    height: 100px;
+	position: relative;
+	border: 1px solid green;
+    	background: yellow;
+    	width: 200px;
+    	height: 100px;
 }
 
 #light {
@@ -270,7 +270,6 @@ img#cowpic {
 	width: 100px;
 	height: 200px;
 	padding-left: 100px;
-	border: 1px solid purple;
 }
 
 td {
