@@ -95,6 +95,7 @@ $(document).ready(function(){
     setTimeout(goRight, 50);
 
     var today = new Date();
+    var s = today.getSeconds();
     var m = today.getMinutes();
     var h = today.getHours();
     var dd = today.getDate();
@@ -124,6 +125,6 @@ $(document).ready(function(){
     else if(h === 0) {
         h = 12;
     }
-    today = h+":"+m+" "+dayofweek+", "+mm+"/"+dd+"/"+yyyy;
+    today = h+":"+m+":"+s+" "+dayofweek+", "+mm+"/"+dd+"/"+yyyy;
     document.getElementById("date").innerHTML = today;
 });
