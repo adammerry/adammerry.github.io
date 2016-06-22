@@ -93,8 +93,9 @@ $(document).ready(function(){
       });
     }
     setTimeout(goRight, 50);
+    
+    function updateClock() {
 
-    document.body.onload="setInterval('updateTime()',1000)"
     var today = new Date();
     var s = today.getSeconds();
     var m = today.getMinutes();
@@ -110,7 +111,7 @@ $(document).ready(function(){
         weekday[4] = "Thursday";
         weekday[5] = "Friday";
         weekday[6] = "Saturday";
-        var dayofweek = weekday[today.getDay()]; 
+    var dayofweek = weekday[today.getDay()]; 
         
     if(dd<10) {
         dd="0"+dd
@@ -123,12 +124,21 @@ $(document).ready(function(){
     if(m<10) {
         m="0"+m
     }
+    
+    if(s<10) {
+        s="0"+s
+    }
+    
     if(h>12) {
         h = h-12;
     }
     else if(h === 0) {
         h = 12;
     }
+    
     today = h+":"+m+":"+s+" "+dayofweek+", "+mm+"/"+dd+"/"+yyyy;
     document.getElementById("date").innerHTML = today;
+    setTimeout(updateClock, 1000);
+    }
+    updateClock();
 });
