@@ -238,10 +238,6 @@ img#goatpic {
 	border-radius: 16px;
 }
 
-.active {
-	background-color: #FFFF00;
-}
-
 img#cowpic {
 	position: absolute;
 	top: 800px;
@@ -272,10 +268,26 @@ img#cowpic {
 	padding-left: 75px;
 }
 
+/* for all of the elements of the table holding lightbulb pics & buttons*/
 td {
  	padding-right: 80px;
 }
 
+/*contunuously updating date*/
 #date {
 	color: black;
 }
+
+#alertButton { 
+    font-size: 12px;
+    background-color: #EBF5FF;
+    color: #4312AE;
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px #98913e;
+  }
+#alertButton:hover, #alertButton:focus, #alertButton:active { 
+    /* swap colors */
+    color: #EBF5FF;
+    background-color: #4312AE;
+    cursor: pointer; /* displays a hand */
+  }
