@@ -142,7 +142,7 @@ $(document).ready(function(){
     }
     updateClock();
     
-    function promptAndAlert() {
+    document.getElementById("alertButton").onclick = function() {
     var person = window.prompt("Please enter your name", "Dr. Mantis Toboggan");
     if (person != null) {
         var myText = "Hello " + person;
@@ -151,5 +151,5 @@ $(document).ready(function(){
     else {
         alert("Looks like you forgot something");
     }
-}
+    };
 });
