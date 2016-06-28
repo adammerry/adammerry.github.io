@@ -141,4 +141,15 @@ $(document).ready(function(){
     setTimeout(updateClock, 1000);
     }
     updateClock();
+    
+    function promptAndAlert() {
+    var person = prompt("Please enter your name", "Dr. Mantis Toboggan");
+    if (person != null) {
+        var myText = "Hello " + person;
+        alert(myText);
+    }
+    else {
+        alert("Looks like you forgot something");
+    }
+}
 });
