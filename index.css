@@ -284,7 +284,7 @@ td {
     color: #4312AE;
     border: 2px solid black;
     box-shadow: 4px 4px 4px #98913e;
-    text-align: center;
+    margin: auto;
   }
 #alertButton:hover, #alertButton:focus, #alertButton:active { 
     /* swap colors */
