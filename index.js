@@ -143,7 +143,7 @@ $(document).ready(function(){
     updateClock();
     
     function promptAndAlert() {
-    var person = prompt("Please enter your name", "Dr. Mantis Toboggan");
+    var person = window.prompt("Please enter your name", "Dr. Mantis Toboggan");
     if (person != null) {
         var myText = "Hello " + person;
         alert(myText);
