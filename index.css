@@ -293,7 +293,7 @@ td {
     color: #4312AE;
     border: 2px solid black;
     box-shadow: 4px 4px 4px #98913e;
-    margin: auto;
+    margin-right: 100px;
     position: relative;
     display:inline;
   }
