@@ -339,3 +339,10 @@ td {
     background-color: #13d2AE;
     cursor: crosshair; /* displays a crosshair */
   }
+
+/*fast animals video*/
+#fastAnimals {
+	border: 1px solid #34accc;
+	display: block;
+	margin: auto;
+}
