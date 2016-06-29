@@ -336,7 +336,7 @@ td {
     margin: auto;
     position: relative;
     display:inline;
-    padding-right: 20px;
+    padding-right: 60px;
   }
 #ageButton:hover, #ageButton:focus, #ageButton:active { 
     /* swap colors */
