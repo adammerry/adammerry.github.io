@@ -306,6 +306,7 @@ td {
 	border: 1px dotted white;
 	height: 100px;
 	background-color: #ff99ff;
+	padding-right: 20px;
 }
 
 /*styling for the buttons that ask for name and age*/
@@ -318,7 +319,6 @@ td {
     margin-right: 100px;
     position: relative;
     display:inline;
-    padding-right: 20px;
   }
 #alertButton:hover, #alertButton:focus, #alertButton:active { 
     /* swap colors */
@@ -336,7 +336,6 @@ td {
     margin: auto;
     position: relative;
     display:inline;
-    padding-right: 60px;
   }
 #ageButton:hover, #ageButton:focus, #ageButton:active { 
     /* swap colors */
@@ -350,4 +349,14 @@ td {
 	border: 1px solid #34accc;
 	display: block;
 	margin: auto;
+}
+
+#myplayer {
+	background-color: #ffffff;
+	color: #000121;
+}
+
+.vidbutton {
+	font-size: 12px;
+	display: inline;
 }
