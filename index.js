@@ -163,4 +163,26 @@ $(document).ready(function(){
         alert("Looks like you forgot something");
     }
     };
+
+    document.getElementById("showButtons").onclick = function {
+      //get the div that contains the buttons we want to show
+      var buttonDiv = document.getElementById("infoButtons");
+      // get the current value of the div's display property 
+      var displaySetting = buttonDiv.style.display;
+      // also get the button that when clicked, will show the div containing the other buttons, so we can change what it says 
+      var buttonToShowButtons = document.getElementById('showButtons');
+      // now toggle the div and the showbutton text, depending on current state
+      if (displaySetting == 'block') { 
+        // div is visible. hide it
+        buttonDiv.style.display = 'none';
+        // change button text
+        buttonToShowButtons.innerHTML = 'Show more buttons';
+      }
+      else { 
+        // div is hidden. show it 
+        buttonDiv.style.display = 'block';
+        // change button text
+        buttonToShowButtons.innerHTML = 'Show less buttons';
+      }
+    };
 });
