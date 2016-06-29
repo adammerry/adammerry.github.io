@@ -281,7 +281,9 @@ td {
 /* div containing the button that asks for name */
 #name {
 	margin: auto;
-	
+	text-align: center;
+	display: block;
+	position: relative;
 }
 
 /*styling for the buttons that ask for name and age*/
