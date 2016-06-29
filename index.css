@@ -305,6 +305,7 @@ td {
 	position: relative;
 	border: 1px dotted white;
 	height: 100px;
+	background-color: #ff99ff;
 }
 
 /*styling for the buttons that ask for name and age*/
