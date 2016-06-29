@@ -144,9 +144,20 @@ $(document).ready(function(){
     
     document.getElementById("alertButton").onclick = function() {
     var person = window.prompt("Please enter your name", "Dr. Mantis Toboggan");
-    if (person != null) {
+    if (person != "") {
         var myText = "Hello " + person;
         alert(myText);
+    }
+    else {
+        alert("Looks like you forgot something");
+    }
+    };
+    
+    function ageFunction() {
+    var age = window.prompt("Please enter your age in years", "0");
+    if (age != "") {
+        var myAge = "You are " + age + " years old";
+        alert(myAge);
     }
     else {
         alert("Looks like you forgot something");
