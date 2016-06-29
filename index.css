@@ -314,9 +314,9 @@ td {
     position: relative;
     display:inline;
   }
-#ageButton:hover, #alertButton:focus, #alertButton:active { 
+#ageButton:hover, #ageButton:focus, #ageButton:active { 
     /* swap colors */
     color: #EBF4FF;
     background-color: #13d2AE;
-    cursor: pointer; /* displays a hand */
+    cursor: crosshair; /* displays a crosshair */
   }
