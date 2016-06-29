@@ -153,7 +153,7 @@ $(document).ready(function(){
     }
     };
     
-    function ageFunction() {
+    document.getElementById("ageButton").onclick = function() {
     var age = window.prompt("Please enter your age in years", "0");
     if (age != "") {
         var myAge = "You are " + age + " years old";
@@ -163,5 +163,4 @@ $(document).ready(function(){
         alert("Looks like you forgot something");
     }
     };
-    document.getElementById("ageButton").onclick = function ageFunction();
 });
