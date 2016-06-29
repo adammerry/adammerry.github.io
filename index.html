@@ -6,6 +6,29 @@
   <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
   <script type='text/javascript' src='index.js'></script>
   <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+  <script>
+    function {
+      //get the div that contains the buttons we want to show
+      var buttonDiv = document.getElementById("infoButtons");
+      // get the current value of the div's display property 
+      var displaySetting = buttonDiv.style.display;
+      // also get the button that when clicked, will show the div containing the other buttons, so we can change what it says 
+      var buttonToShowButtons = document.getElementById('showButtons');
+      // now toggle the div and the showbutton text, depending on current state
+      if (displaySetting == 'block') { 
+        // div is visible. hide it
+        buttonDiv.style.display = 'none';
+        // change button text
+        buttonToShowButtons.innerHTML = 'Show more buttons';
+      }
+      else { 
+        // div is hidden. show it 
+        buttonDiv.style.display = 'block';
+        // change button text
+        buttonToShowButtons.innerHTML = 'Show less buttons';
+      }
+    }  
+  </script>
 </head>
 <body>
   <div id="page-wrap">
@@ -155,8 +178,9 @@
           </tr>
         </table>
         <p id="date"></p>
-        <div id="name">
-          <button id="alertButton">Click here</button>
+        <button id="showButtons" onclick="toggleInfoButtons()">Click here</button>
+        <div id="infoButtons">
+          <button id="alertButton">Then click here</button>
           <button id="ageButton">Now click here</button>
         </div>
     </div>
