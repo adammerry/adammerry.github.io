@@ -287,7 +287,7 @@ td {
     box-shadow: 4px 4px 4px #9b913e;
     margin-right: 100px;
     position: relative;
-    display: none;
+    display: block;
   }
 #showButtons:hover, #showButtons:focus, #showButtons:active { 
     /* swap colors */
@@ -300,7 +300,7 @@ td {
 #infoButtons {
 	margin: auto;
 	text-align: center;
-	display: block;
+	display: none;
 	position: relative;
 	border: 1px dotted white;
 }
