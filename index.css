@@ -353,7 +353,8 @@ td {
 
 #myplayer {
 	background-color: #ffffff;
-	color: #000121;
+	color: #0b0121;
+	height: 100px;
 }
 
 .vidbutton {
