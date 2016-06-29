@@ -164,7 +164,7 @@ $(document).ready(function(){
     }
     };
 
-    document.getElementById("showButtons").onclick = function {
+    document.getElementById("showButtons").onclick = function() {
       //get the div that contains the buttons we want to show
       var buttonDiv = document.getElementById("infoButtons");
       // get the current value of the div's display property 
