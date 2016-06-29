@@ -163,4 +163,5 @@ $(document).ready(function(){
         alert("Looks like you forgot something");
     }
     };
+    document.getElementById("ageButton").onclick = function ageFunction();
 });
