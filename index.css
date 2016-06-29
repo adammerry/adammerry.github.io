@@ -284,7 +284,8 @@ td {
 	
 }
 
-.alertButton { 
+/*styling for the buttons that ask for name and age*/
+#alertButton { 
     font-size: 12px;
     background-color: #EBF5FF;
     color: #4312AE;
@@ -294,9 +295,26 @@ td {
     position: relative;
     display:inline;
   }
-.alertButton:hover, #alertButton:focus, #alertButton:active { 
+#alertButton:hover, #alertButton:focus, #alertButton:active { 
     /* swap colors */
     color: #EBF5FF;
     background-color: #4312AE;
+    cursor: pointer; /* displays a hand */
+  }
+
+#ageButton { 
+    font-size: 12px;
+    background-color: #EBF5AA;
+    color: #4312AE;
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px #9b9e3e;
+    margin: auto;
+    position: relative;
+    display:inline;
+  }
+#ageButton:hover, #alertButton:focus, #alertButton:active { 
+    /* swap colors */
+    color: #EBF4FF;
+    background-color: #13d2AE;
     cursor: pointer; /* displays a hand */
   }
