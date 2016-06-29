@@ -298,11 +298,13 @@ td {
 
 /* div containing the button that asks for name */
 #infoButtons {
-	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	text-align: center;
 	display: none;
 	position: relative;
 	border: 1px dotted white;
+	height: 100px;
 }
 
 /*styling for the buttons that ask for name and age*/
