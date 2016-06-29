@@ -280,19 +280,21 @@ td {
 
 /* div containing the button that asks for name */
 #name {
+	margin: auto;
 	
 }
 
-#alertButton { 
+.alertButton { 
     font-size: 12px;
     background-color: #EBF5FF;
     color: #4312AE;
     border: 2px solid black;
     box-shadow: 4px 4px 4px #98913e;
     margin: auto;
-    position: absolute;
+    position: relative;
+    display:inline;
   }
-#alertButton:hover, #alertButton:focus, #alertButton:active { 
+.alertButton:hover, #alertButton:focus, #alertButton:active { 
     /* swap colors */
     color: #EBF5FF;
     background-color: #4312AE;
