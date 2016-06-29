@@ -278,12 +278,31 @@ td {
 	color: black;
 }
 
+/*button that shows the other buttons when clicked*/
+#showButtons { 
+    font-size: 12px;
+    background-color: #A3F50F;
+    color: #4312AE;
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px #9b913e;
+    margin-right: 100px;
+    position: relative;
+    display: none;
+  }
+#showButtons:hover, #showButtons:focus, #showButtons:active { 
+    /* swap colors */
+    color: #ccF5FF;
+    background-color: #43dcAE;
+    cursor: pointer; /* displays a hand */
+}
+
 /* div containing the button that asks for name */
-#name {
+#infoButtons {
 	margin: auto;
 	text-align: center;
 	display: block;
 	position: relative;
+	border: 1px dotted white;
 }
 
 /*styling for the buttons that ask for name and age*/
