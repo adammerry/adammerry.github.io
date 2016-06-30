@@ -350,14 +350,3 @@ td {
 	display: block;
 	margin: auto;
 }
-
-#myplayer {
-	background-color: #ffffff;
-	color: #0b0121;
-	height: 100px;
-}
-
-.vidbutton {
-	font-size: 12px;
-	display: inline;
-}
