@@ -144,7 +144,7 @@ $(document).ready(function(){
     
     document.getElementById("alertButton").onclick = function() {
     var person = window.prompt("Please enter your name", "Dr. Mantis Toboggan");
-    if (isNaN(person) === false) {
+    if (isNaN(person) === false && person !=="")  {
         alert("You entered a number, not a name")
     }
     else if (person ==="") {
@@ -158,7 +158,7 @@ $(document).ready(function(){
     
     document.getElementById("ageButton").onclick = function() {
     var age = window.prompt("Please enter your age in years", "0");
-    if (isNaN(age) === true) {
+    if (isNaN(age) === true && age !=="") {
         alert("You need to enter a number");
     }
     if (age ==="") {
