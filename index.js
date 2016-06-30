@@ -161,7 +161,7 @@ $(document).ready(function(){
     if (isNaN(age) === true && age !=="") {
         alert("You need to enter a number");
     }
-    if (age ==="") {
+    else if (age ==="") {
         alert("Looks like you forgot something");
     }
     else {
