@@ -354,8 +354,8 @@ td {
 /*form styling*/
 form {
 	background-color: #b4eeb4;
-	display: block;
+	display: inline-block;
 	text-align: left;
-	width: 580px;
+	width: 610px;
 	color: #000000;
 }
