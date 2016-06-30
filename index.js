@@ -144,23 +144,29 @@ $(document).ready(function(){
     
     document.getElementById("alertButton").onclick = function() {
     var person = window.prompt("Please enter your name", "Dr. Mantis Toboggan");
-    if (person != "") {
-        var myText = "Hello " + person;
-        alert(myText);
+    if (isNaN(person) === false) {
+        alert("You entered a number, not a name")
+    }
+    else if (person ==="") {
+        alert("Looks like you forgot something");
     }
     else {
-        alert("Looks like you forgot something");
+        var myText = "Hello " + person;
+        alert(myText);
     }
     };
     
     document.getElementById("ageButton").onclick = function() {
     var age = window.prompt("Please enter your age in years", "0");
-    if (age != "") {
-        var myAge = "You are " + age + " years old";
-        alert(myAge);
+    if (isNaN(age) === true) {
+        alert("You need to enter a number");
+    }
+    if (age ==="") {
+        alert("Looks like you forgot something");
     }
     else {
-        alert("Looks like you forgot something");
+        var myAge = "You are " + age + " years old";
+        alert(myAge);
     }
     };
 
