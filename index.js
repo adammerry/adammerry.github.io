@@ -191,4 +191,14 @@ $(document).ready(function(){
         buttonToShowButtons.innerHTML = 'Show less buttons';
       }
     };
+    /*
+    switch (expression) {
+          case n:
+            code block
+            break;
+          case n:
+            code block
+            break;
+          default:
+            default code block;*/
 });
