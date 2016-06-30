@@ -350,3 +350,10 @@ td {
 	display: block;
 	margin: auto;
 }
+
+/*form styling*/
+form {
+	background-color: #b4eeb4;
+	display: block;
+	text-align: left;
+}
