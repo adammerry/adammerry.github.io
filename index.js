@@ -144,7 +144,7 @@ $(document).ready(function(){
     
     document.getElementById("alertButton").onclick = function() {
     var person = window.prompt("Please enter your name", "Dr. Mantis Toboggan");
-    if (person != "") {
+    if (person != "" || person != null) {
         var myText = "Hello " + person;
         alert(myText);
     }
@@ -155,7 +155,7 @@ $(document).ready(function(){
     
     document.getElementById("ageButton").onclick = function() {
     var age = window.prompt("Please enter your age in years", "0");
-    if (age != "") {
+    if (age != "" || person != null) {
         var myAge = "You are " + age + " years old";
         alert(myAge);
     }
@@ -185,4 +185,66 @@ $(document).ready(function(){
         buttonToShowButtons.innerHTML = 'Show less buttons';
       }
     };
+    
+    var video,speed,volume;
+    function init(){
+        // initialize the player 
+        // first, get the media element and assign it to the video variable
+        video = document.getElementById('iframe');      
+        // get the current playbackRate from the HTML5 media API 
+        // range is 0 to very fast, with 1 being normal playback 
+        speed = document.getElementById("iframe").playbackRate;         
+        // volume range is 0 to 1 
+        // set it in the middle so we have room to move it with our buttons
+        volume = 0.5;
+        document.getElementById("iframe").volume = volume; 
+    }
+        
+    document.getElementById("play").onclick = function {       
+        document.getElementById("iframe").play(); 
+    }
+      
+    document.getElementById("pause").onclick = function {       
+        document.getElementById("iframe").pause();
+    }
+      
+        /*function changeSpeed(direction) { 
+        // direction is either 'up' (faster) or 'down' (slower) 
+        if (direction == 'up') { 
+    if (speed < 10) { 
+      // increase playbackRate 
+      speed = speed + 0.1; 
+    }
+  }  
+  else if (direction == 'down') { 
+    if (speed > 0) {
+      // decrease playbackRate
+      speed = speed - 0.1; 
+    }
+  }
+  // so far all we've done is change the value of our speed variable 
+  // not let's assign it to the player 
+  document.getElementById("iframe").playbackRate = speed;           
+}
+      
+function changeVolume(direction) { 
+  if (direction == 'up') { 
+    // if not fully cranked yet, increase volume 
+    if (volume < 0.9) {
+      volume = volume + 0.1; 
+    }
+  }  
+  else if (direction == 'down') { 
+    // if not muted, decrease volume
+    if (volume > 0.1) {  
+      volume = volume - 0.1; 
+    }
+  }       
+  // so far all we've done is change the value of our volume variable 
+  // not let's assign it to the player 
+  video.volume = volume;            
+} 
+      
+// wait until the web page has finished loading, then run the init function
+window.onload = init;*/
 });
