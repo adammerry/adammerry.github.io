@@ -200,11 +200,11 @@ $(document).ready(function(){
         document.getElementById("iframe").volume = volume; 
     }
         
-    document.getElementById("play").onclick = function {       
+    document.getElementById("play").onclick = function() {       
         document.getElementById("iframe").play(); 
     }
       
-    document.getElementById("pause").onclick = function {       
+    document.getElementById("pause").onclick = function() {       
         document.getElementById("iframe").pause();
     }
       
