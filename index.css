@@ -363,12 +363,12 @@ form {
 }
 
 legend {
-	
+	font-style: italic;	
 }
 
 /* button that submits favorite sports team */
 #submitsports {
-	
+	border-radius: 5px;
 }
 
 /*pararaph stelling facts about sports team */
