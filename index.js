@@ -195,7 +195,7 @@ $(document).ready(function(){
     document.getElementById("submitsports").onclick = function() {
         var favTeam = document.getElementById("bostonsports");
         var text = favTeam.elements[0].value;
-            if text = "bruins" {
+            if (text === "bruins") {
                 document.getElementById("sportsfacts").innerHTML = text;
             }
             else {
