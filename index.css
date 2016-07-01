@@ -363,14 +363,16 @@ form {
 }
 
 legend {
-	font-style: italic;	
+	font-style: italic;
 }
 
 /* button that submits favorite sports team */
 #submitsports {
 	border-radius: 15px;
 	background-color: yellow;
-	display: inline;
+	display: inline-block;
+	position: relative;
+	bottom: 30px;
 }
 
 /*pararaph stelling facts about sports team */
