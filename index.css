@@ -369,7 +369,8 @@ legend {
 /* button that submits favorite sports team */
 #submitsports {
 	border-radius: 15px;
-	background-color: white;
+	background-color: yellow;
+	display: inline;
 }
 
 /*pararaph stelling facts about sports team */
