@@ -211,5 +211,5 @@ $(document).ready(function(){
                 default:
                     document.getElementById("sportsfacts").innerHTML = "yu mno" + text;
         }*/
-    }
+    };
 });
