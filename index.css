@@ -356,7 +356,7 @@ form {
 	background-color: #b4eeb4;
 	display: inline-block;
 	text-align: left;
-	width: 640px;
+	width: 700px;
 	color: #000000;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -369,6 +369,7 @@ legend {
 /* button that submits favorite sports team */
 #submitsports {
 	border-radius: 15px;
+	background-color: white;
 }
 
 /*pararaph stelling facts about sports team */
