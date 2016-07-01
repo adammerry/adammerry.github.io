@@ -359,4 +359,19 @@ form {
 	width: 640px;
 	color: #000000;
 	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+legend {
+	
+}
+
+/* button that submits favorite sports team */
+#submitsports {
+	
+}
+
+/*pararaph stelling facts about sports team */
+#sportsfacts {
+	color: blue;
 }
