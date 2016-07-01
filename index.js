@@ -195,12 +195,12 @@ $(document).ready(function(){
     document.getElementById("submitsports").onclick = function() {
         var favTeam = document.getElementById("bostonsports");
         var text = favTeam.elements[0].value;
-           /* if text = "bruins" {
+            if text = "bruins" {
                 document.getElementById("sportsfacts").innerHTML = text;
             }
             else {
                 document.getElementById("sportsfacts").innerHTML = text + "ionfov";
-            }
+            }/*
             switch (text) {
                 case "bruins":
                     document.getElementById("sportsfacts").innerHTML = text;
