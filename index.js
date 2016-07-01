@@ -191,10 +191,17 @@ $(document).ready(function(){
         buttonToShowButtons.innerHTML = 'Show less buttons';
       }
     };
+    
     document.getElementById("submitsports").onclick = function() {
         var favTeam = document.getElementById("bostonsports");
         var text = favTeam.elements[0].value;
-            switch (text) {
+            if text = "bruins" {
+                document.getElementById("sportsfacts").innerHTML = text;
+            }
+            else {
+                document.getElementById("sportsfacts").innerHTML = text + "ionfov";
+            }
+            /*switch (text) {
                 case "bruins":
                     document.getElementById("sportsfacts").innerHTML = text;
                     break;
@@ -203,6 +210,6 @@ $(document).ready(function(){
                     break;
                 default:
                     document.getElementById("sportsfacts").innerHTML = "yu mno" + text;
-        }
+        }*/
     }
 });
