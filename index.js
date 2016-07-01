@@ -191,14 +191,18 @@ $(document).ready(function(){
         buttonToShowButtons.innerHTML = 'Show less buttons';
       }
     };
-    /*
-    switch (expression) {
-          case n:
-            code block
-            break;
-          case n:
-            code block
-            break;
-          default:
-            default code block;*/
+    document.getElementById("submitsports").onclick = function() {
+        var favTeam = document.getElementById("bostonsports");
+        var text = favTeam.elements[0].value;
+            switch (text) {
+                case "bruins":
+                    document.getElementById("sportsfacts").innerHTML = text;
+                    break;
+                case "red sox":
+                    document.getElementById("sportsfacts").innerHTML = text;
+                    break;
+                default:
+                    document.getElementById("sportsfacts").innerHTML = "yu mno" + text;
+        }
+    }
 });
