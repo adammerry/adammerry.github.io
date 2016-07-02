@@ -235,6 +235,7 @@ $(document).ready(function(){
                     break;
                 default:
                     document.getElementById("sportsfacts").innerHTML = "You didn't type a correct team name";
+                    document.getElementById("sportsPic").src = "http://www.thesportstruth.com/wp-content/uploads/2015/11/sports.jpg";
         }
     };
 });
