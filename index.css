@@ -374,10 +374,18 @@ legend {
 #bostonsports {
 	background-color: #BDA0CB;
 	margin: auto;
+	cursor: pointer;
 }
 
 /*pararaph telling facts about sports team */
 #sportsfacts {
 	color: blue;
 	display: block;
+}
+
+/*picture of the user inputted sports team*/
+#sportsPic {
+	border-radius: 50%;
+	width: 500px;
+	height: 500px;
 }
