@@ -196,18 +196,35 @@ $(document).ready(function(){
         var favTeam = window.prompt("Enter the name of your favorite Boston sports team", "Ex. 'Bruins'").toUpperCase();
             switch (favTeam) {
                 case "BRUINS":
-                    document.getElementById("sportsfacts").innerHTML = favTeam;
+                    document.getElementById("sportsfacts").innerHTML = "The Bruins have won 6 Stanley Cups, which is tied for 4th most all time with the Blackhawks";
+                    document.getElementById("sportsPic").src = "http://www.ballermindframe.com/wp-content/uploads/2015/04/boston-bruins-0.jpg"
+                    break;
+                case "BOSTON BRUINS":
+                    document.getElementById("sportsfacts").innerHTML = "The Bruins have won 6 Stanley Cups, which is tied for 4th most all time with the Blackhawks";
+                    document.getElementById("sportsPic").src = "http://www.ballermindframe.com/wp-content/uploads/2015/04/boston-bruins-0.jpg"
                     break;
                 case "RED SOX":
+                    document.getElementById("sportsfacts").innerHTML = favTeam;
+                    break;
+                case "BOSTON RED SOX":
                     document.getElementById("sportsfacts").innerHTML = favTeam;
                     break;
                 case "CELTICS":
                     document.getElementById("sportsfacts").innerHTML = favTeam;
                     break;
+                case "BOSTON CELTICS":
+                    document.getElementById("sportsfacts").innerHTML = favTeam;
+                    break;
                 case "REVOLUTION":
                     document.getElementById("sportsfacts").innerHTML = favTeam;
                     break;
+                case "NEW ENGLAND REVOLUTION":
+                    document.getElementById("sportsfacts").innerHTML = favTeam;
+                    break;
                 case "PATRIOTS":
+                    document.getElementById("sportsfacts").innerHTML = favTeam;
+                    break;
+                case "NEW ENGLAND PATRIOTS":
                     document.getElementById("sportsfacts").innerHTML = favTeam;
                     break;
                 default:
