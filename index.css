@@ -373,14 +373,16 @@ legend {
 /*button that when pressed asks about ur fav sports team*/
 #bostonsports {
 	background-color: #BDA0CB;
-	margin: auto;
 	cursor: pointer;
+	margin-right: 300px;
+	display: block;
 }
 
 /*pararaph telling facts about sports team */
 #sportsfacts {
 	color: blue;
 	display: block;
+	font-size: 20px;
 }
 
 /*picture of the user inputted sports team*/
@@ -388,4 +390,5 @@ legend {
 	border-radius: 50%;
 	width: 500px;
 	height: 500px;
+	display: block;
 }
