@@ -379,6 +379,10 @@ legend {
 	display: block;
 }
 
+#bostonsports:hover {
+	box-shadow: 5px yellow;
+}
+
 /*pararaph telling facts about sports team */
 #sportsfacts {
 	color: blue;
