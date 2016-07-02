@@ -366,11 +366,17 @@ legend {
 	font-style: italic;
 }
 
+/*div with sports buttons and facts in it*/
+#sportsdiv {
+	text-align: center;
+}
+
+/*button that when pressed asks about ur fav sports team*/
 #bostonsports {
 	background-color: #BDA0CB;
 }
 
-/*pararaph stelling facts about sports team */
+/*pararaph telling facts about sports team */
 #sportsfacts {
 	color: blue;
 }
