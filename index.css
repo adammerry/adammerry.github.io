@@ -368,13 +368,14 @@ legend {
 
 /*div with sports buttons and facts in it*/
 #sportsdiv {
+	display: block;
 }
 
 /*button that when pressed asks about ur fav sports team*/
 #bostonsports {
 	background-color: #BDA0CB;
 	cursor: pointer;
-	margin-right: 30px;
+	margin: auto;
 	display: block;
 }
 
@@ -383,7 +384,7 @@ legend {
 	color: blue;
 	display: block;
 	font-size: 20px;
-	margin-top: 10px;
+	margin-top: 20px;
 }
 
 /*picture of the user inputted sports team*/
@@ -392,4 +393,5 @@ legend {
 	width: 500px;
 	height: 500px;
 	display: block;
+	margin: auto;
 }
