@@ -379,4 +379,5 @@ legend {
 /*pararaph telling facts about sports team */
 #sportsfacts {
 	color: blue;
+	display: block;
 }
