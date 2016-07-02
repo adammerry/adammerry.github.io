@@ -197,35 +197,41 @@ $(document).ready(function(){
             switch (favTeam) {
                 case "BRUINS":
                     document.getElementById("sportsfacts").innerHTML = "The Bruins have won 6 Stanley Cups, which is tied for 4th most all time with the Blackhawks";
-                    document.getElementById("sportsPic").src = "http://www.ballermindframe.com/wp-content/uploads/2015/04/boston-bruins-0.jpg"
+                    document.getElementById("sportsPic").src = "http://www.ballermindframe.com/wp-content/uploads/2015/04/boston-bruins-0.jpg";
                     break;
                 case "BOSTON BRUINS":
                     document.getElementById("sportsfacts").innerHTML = "The Bruins have won 6 Stanley Cups, which is tied for 4th most all time with the Blackhawks";
-                    document.getElementById("sportsPic").src = "http://www.ballermindframe.com/wp-content/uploads/2015/04/boston-bruins-0.jpg"
+                    document.getElementById("sportsPic").src = "http://www.ballermindframe.com/wp-content/uploads/2015/04/boston-bruins-0.jpg";
                     break;
                 case "RED SOX":
-                    document.getElementById("sportsfacts").innerHTML = favTeam;
+                    document.getElementById("sportsfacts").innerHTML = "The Red Sox have won 8 World Series', which is tied for 4th most all time with the Giants";
+                    document.getElementById("sportsPic").src = "http://www.sports-logos-screensavers.com/user/Boston_Red_Sox.jpg";
                     break;
                 case "BOSTON RED SOX":
-                    document.getElementById("sportsfacts").innerHTML = favTeam;
-                    break;
+                    document.getElementById("sportsfacts").innerHTML = "The Red Sox have won 8 World Series', which is tied for 4th most all time with the Giants";
+                    document.getElementById("sportsPic").src = "http://www.sports-logos-screensavers.com/user/Boston_Red_Sox.jpg";
                 case "CELTICS":
-                    document.getElementById("sportsfacts").innerHTML = favTeam;
+                    document.getElementById("sportsfacts").innerHTML = "The Celtics have won 17 NBA Championships, which is the most of any team";
+                    document.getElementById("sportsPic").src = "https://pbs.twimg.com/profile_images/2815110476/033393c13e6dec0fd6cc5006453fbeb5_400x400.png";
                     break;
                 case "BOSTON CELTICS":
-                    document.getElementById("sportsfacts").innerHTML = favTeam;
-                    break;
+                    document.getElementById("sportsfacts").innerHTML = "The Celtics have won 17 NBA Championships, which is the most of any team";
+                    document.getElementById("sportsPic").src = "https://pbs.twimg.com/profile_images/2815110476/033393c13e6dec0fd6cc5006453fbeb5_400x400.png";
                 case "REVOLUTION":
-                    document.getElementById("sportsfacts").innerHTML = favTeam;
+                    document.getElementById("sportsfacts").innerHTML = "The Revolution have appeared in 5 MLS Cup finals, but have lost every time, and never scored more than one goal in a final match";
+                    document.getElementById("sportsPic").src = "http://cdn.fullfifa.com/wp-content/uploads/2014/11/nerevolution.jpg";
                     break;
                 case "NEW ENGLAND REVOLUTION":
-                    document.getElementById("sportsfacts").innerHTML = favTeam;
+                    document.getElementById("sportsfacts").innerHTML = "The Revolution have appeared in 5 MLS Cup finals, but have lost every time, and never scored more than one goal in a final match";
+                    document.getElementById("sportsPic").src = "http://cdn.fullfifa.com/wp-content/uploads/2014/11/nerevolution.jpg";
                     break;
                 case "PATRIOTS":
-                    document.getElementById("sportsfacts").innerHTML = favTeam;
+                    document.getElementById("sportsfacts").innerHTML = "The Patriots have won 4 Super Bowls, which is tied for 4th most with the Giants and Packers";
+                    document.getElementById("sportsPic").src = "https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/New_England_Patriots_logo_old.svg/1024px-New_England_Patriots_logo_old.svg.png";
                     break;
                 case "NEW ENGLAND PATRIOTS":
-                    document.getElementById("sportsfacts").innerHTML = favTeam;
+                    document.getElementById("sportsfacts").innerHTML = "The Patriots have won 4 Super Bowls, which is tied for 4th most with the Giants and Packers";
+                    document.getElementById("sportsPic").src = "https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/New_England_Patriots_logo_old.svg/1024px-New_England_Patriots_logo_old.svg.png";
                     break;
                 default:
                     document.getElementById("sportsfacts").innerHTML = "You didn't type a correct team name";
