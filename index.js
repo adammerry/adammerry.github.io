@@ -192,20 +192,26 @@ $(document).ready(function(){
       }
     };
     
-    document.getElementById("submitsports").onclick = function() {
-        var favTeam = document.getElementById("bostonsports");
-        var text = favTeam.elements[0].value;
-        document.getElementById("sportsfacts").innerHTML = text + "ionfov";
-/*
-            switch (text) {
-                case "bruins":
-                    document.getElementById("sportsfacts").innerHTML = text;
+    document.getElementById("bostonsports").onclick = function() {
+        var favTeam = window.prompt("Enter the name of your favorite Boston sports team", "Ex. 'Bruins'").toUpperCase();
+            switch (favTeam) {
+                case "BRUINS":
+                    document.getElementById("sportsfacts").innerHTML = favTeam;
                     break;
-                case "red sox":
-                    document.getElementById("sportsfacts").innerHTML = text;
+                case "RED SOX":
+                    document.getElementById("sportsfacts").innerHTML = favTeam;
+                    break;
+                case "CELTICS":
+                    document.getElementById("sportsfacts").innerHTML = favTeam;
+                    break;
+                case "REVOLUTION":
+                    document.getElementById("sportsfacts").innerHTML = favTeam;
+                    break;
+                case "PATRIOTS":
+                    document.getElementById("sportsfacts").innerHTML = favTeam;
                     break;
                 default:
-                    document.getElementById("sportsfacts").innerHTML = "yu mno" + text;
-        }*/
+                    document.getElementById("sportsfacts").innerHTML = "You didn't type a correct team name";
+        }
     };
 });
