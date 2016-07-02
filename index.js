@@ -210,6 +210,7 @@ $(document).ready(function(){
                 case "BOSTON RED SOX":
                     document.getElementById("sportsfacts").innerHTML = "The Red Sox have won 8 World Series', which is tied for 4th most all time with the Giants";
                     document.getElementById("sportsPic").src = "http://www.sports-logos-screensavers.com/user/Boston_Red_Sox.jpg";
+                    break;
                 case "CELTICS":
                     document.getElementById("sportsfacts").innerHTML = "The Celtics have won 17 NBA Championships, which is the most of any team";
                     document.getElementById("sportsPic").src = "https://pbs.twimg.com/profile_images/2815110476/033393c13e6dec0fd6cc5006453fbeb5_400x400.png";
@@ -217,6 +218,7 @@ $(document).ready(function(){
                 case "BOSTON CELTICS":
                     document.getElementById("sportsfacts").innerHTML = "The Celtics have won 17 NBA Championships, which is the most of any team";
                     document.getElementById("sportsPic").src = "https://pbs.twimg.com/profile_images/2815110476/033393c13e6dec0fd6cc5006453fbeb5_400x400.png";
+                    break;
                 case "REVOLUTION":
                     document.getElementById("sportsfacts").innerHTML = "The Revolution have appeared in 5 MLS Cup finals, but have lost every time, and never scored more than one goal in a final match";
                     document.getElementById("sportsPic").src = "http://cdn.fullfifa.com/wp-content/uploads/2014/11/nerevolution.jpg";
