@@ -380,7 +380,7 @@ legend {
 }
 
 #bostonsports:hover {
-	box-shadow: 10px 10px 5px yellow;
+	box-shadow: 10px 10px 10px 10px yellow;
 }
 
 /*pararaph telling facts about sports team */
