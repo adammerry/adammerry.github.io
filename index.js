@@ -242,7 +242,7 @@ $(document).ready(function(){
     };
     for (i = 2016; i <2057; i += 4) {
         document.getElementById("leapYear").innerHTML += (i + " is a leap year" + "<br>");
-    }
+    }/*
     function coinFlip() {
         var headCount = 0;
         var flipCount = 0;
@@ -267,5 +267,5 @@ $(document).ready(function(){
     document.getElementsById("coin1").onclick = coinFlip();
     document.getElementsById("coin2").onclick = coinFlip();
     document.getElementsById("coin3").onclick = coinFlip();
-    document.getElementsById("coin4").onclick = coinFlip();
+    document.getElementsById("coin4").onclick = coinFlip();*/
 });
