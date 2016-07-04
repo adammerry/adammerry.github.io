@@ -250,7 +250,6 @@ $(document).ready(function(){
         var flipCount = 0;
         while (headCount < 3) {
             var randomNum = Math.random();
-            headCount ++;/*
                 if (randomNum > 0.5) {
                     var flip = 1;
                     alert("HEADS");
@@ -259,15 +258,15 @@ $(document).ready(function(){
                     var flip = 0;
                     alert("TAILS");
                 }
-            var flipcount += flipcount;
+            var flipCount ++;
                 if (flip === 1) {
-                    headcount++;
-                    alert ("You have " + headcount + " heads in a row");
+                    headCount++;
+                    alert ("You have " + headCount + " heads in a row");
                 }
                 else {
-                    headcount === 0;
+                    headCount === 0;
                 }
-        alert("It took " + flipcount + " flips to get 3 heads in a row");
-        }*/
+        alert("It has taken " + flipCount + " flips to get 3 heads in a row");
+        }
     };
 });
