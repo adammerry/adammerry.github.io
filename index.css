@@ -404,7 +404,7 @@ legend {
 	color: #2d4000;
 }
 
-.coins {
+#coin {
 	border-radius: 50%;
 	text-align: center;
 	height: 150px;
@@ -413,8 +413,8 @@ legend {
 	font-weight: bold;
 	font-family: sans-serif;
 	color: white;
-	margin: 10px;
-	display: inline;
+	margin: auto;
+	display: block;
 	line-height: 50px;
 	font-size: 30px;
 	cursor: pointer;
