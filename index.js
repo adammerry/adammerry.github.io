@@ -264,7 +264,7 @@ $(document).ready(function(){
                     alert ("You have " + headCount + " heads in a row");
                 }
                 else {
-                    headCount === 0;
+                    headCount = 0;
                     break;
                 }
         alert("It has taken " + flipCount + " flips to get 3 heads in a row");
