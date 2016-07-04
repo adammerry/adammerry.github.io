@@ -243,4 +243,29 @@ $(document).ready(function(){
     for (i = 2016; i <2057; i += 4) {
         document.getElementById("leapYear").innerHTML += (i + " is a leap year" + "<br>");
     }
+    function coinFlip() {
+        var headCount = 0;
+        var flipCount = 0;
+        while headCount < 3 {
+            var randomNum = Math.random();
+                if randomNum > 0.5 {
+                    var flip = 1;
+                }
+                else {
+                    var flip = 0;
+                }
+            var flipcount += flipcount;
+                if flip === 1 {
+                    headcount++;
+                }
+                else {
+                    headcount === 0;
+                }
+        alert("It took " + flipcount + " flips to get 3 heads in a row")
+        }
+    };
+    document.getElementsById("coin1").onclick = coinFlip();
+    document.getElementsById("coin2").onclick = coinFlip();
+    document.getElementsById("coin3").onclick = coinFlip();
+    document.getElementsById("coin4").onclick = coinFlip();
 });
