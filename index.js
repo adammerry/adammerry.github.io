@@ -248,7 +248,7 @@ $(document).ready(function(){
         var flipCount = 0;
         while (headCount < 3) {
             var randomNum = Math.random();
-                if randomNum > 0.5 {
+                if (randomNum > 0.5) {
                     var flip = 1;
                     alert("HEADS");
                 }
@@ -257,7 +257,7 @@ $(document).ready(function(){
                     alert("TAILS");
                 }
             var flipcount += flipcount;
-                if flip === 1 {
+                if (flip === 1) {
                     headcount++;
                     alert ("You have " + headcount + " heads in a row");
                 }
