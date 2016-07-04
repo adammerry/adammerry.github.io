@@ -250,7 +250,7 @@ $(document).ready(function(){
         var flipCount = 0;
         while (headCount < 3) {
             var randomNum = Math.random();
-                headcount ++;/*
+            headCount ++;/*
                 if (randomNum > 0.5) {
                     var flip = 1;
                     alert("HEADS");
