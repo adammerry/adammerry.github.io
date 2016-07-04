@@ -399,3 +399,7 @@ legend {
 	display: block;
 	margin: auto;
 }
+
+#leapYear {
+	color: #9df700;
+}
