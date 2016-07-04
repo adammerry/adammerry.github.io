@@ -242,7 +242,7 @@ $(document).ready(function(){
     };
     for (i = 2016; i <2057; i += 4) {
         document.getElementById("leapYear").innerHTML += (i + " is a leap year" + "<br>");
-    }/*
+    }
     function coinFlip() {
         var headCount = 0;
         var flipCount = 0;
@@ -250,9 +250,11 @@ $(document).ready(function(){
             var randomNum = Math.random();
                 if randomNum > 0.5 {
                     var flip = 1;
+                    alert("HEADS")
                 }
                 else {
                     var flip = 0;
+                    alert("TAILS")
                 }
             var flipcount += flipcount;
                 if flip === 1 {
@@ -264,8 +266,5 @@ $(document).ready(function(){
         alert("It took " + flipcount + " flips to get 3 heads in a row")
         }
     };
-    document.getElementsById("coin1").onclick = coinFlip();
-    document.getElementsById("coin2").onclick = coinFlip();
-    document.getElementsById("coin3").onclick = coinFlip();
-    document.getElementsById("coin4").onclick = coinFlip();*/
+    document.getElementsByClassName("coins").onclick = coinFlip();
 });
