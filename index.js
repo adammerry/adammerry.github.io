@@ -246,7 +246,7 @@ $(document).ready(function(){
     function coinFlip() {
         var headCount = 0;
         var flipCount = 0;
-        while headCount < 3 {
+        while (headCount < 3) {
             var randomNum = Math.random();
                 if randomNum > 0.5 {
                     var flip = 1;
