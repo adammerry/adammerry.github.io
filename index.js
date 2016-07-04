@@ -241,6 +241,6 @@ $(document).ready(function(){
         }
     };
     for (i = 2016; i <2057; i += 4) {
-        document.getElementById("leapYear").innerHTML = i + "is a leap year" + "<br>";
+        document.getElementById("leapYear").innerHTML += (i + " is a leap year" + "<br>");
     }
 });
