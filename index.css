@@ -418,3 +418,19 @@ legend {
 	line-height: 50px;
 	font-size: 20px;
 }
+
+#coin1 {
+	display: inline;
+}
+
+#coin2 {
+	display: inline;
+}
+
+#coin3 {
+	display: inline;
+}
+
+#coin4 {
+	display: inline;
+}
