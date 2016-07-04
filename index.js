@@ -250,21 +250,22 @@ $(document).ready(function(){
             var randomNum = Math.random();
                 if randomNum > 0.5 {
                     var flip = 1;
-                    alert("HEADS")
+                    alert("HEADS");
                 }
                 else {
                     var flip = 0;
-                    alert("TAILS")
+                    alert("TAILS");
                 }
             var flipcount += flipcount;
                 if flip === 1 {
                     headcount++;
+                    alert ("You have " + headcount + " heads in a row");
                 }
                 else {
                     headcount === 0;
                 }
-        alert("It took " + flipcount + " flips to get 3 heads in a row")
+        alert("It took " + flipcount + " flips to get 3 heads in a row");
         }
     };
-    document.getElementsByClassName("coins").onclick = coinFlip();
+    document.getElementById("coin").onclick = coinFlip();
 });
