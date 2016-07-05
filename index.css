@@ -369,6 +369,7 @@ legend {
 /*div with sports buttons and facts in it*/
 #sportsdiv {
 	display: block;
+	margin-bottom: 20px;
 }
 
 /*button that when pressed asks about ur fav sports team*/
@@ -404,6 +405,7 @@ legend {
 	color: #2d4000;
 }
 
+/*div that creates coin circle*/
 #coin {
 	border-radius: 50%;
 	height: 150px;
