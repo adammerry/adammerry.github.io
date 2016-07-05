@@ -245,11 +245,8 @@ $(document).ready(function(){
         document.getElementById("leapYear").innerHTML += (i + " is a leap year" + "<br>");
     }
     
-    
+    var headCount = 0;
     document.getElementById("coin").onclick = function() {
-        var headCount = 0;
-        var flipCount = 0;
-        if (headCount < 3) {
             var randomNum = Math.random();
                 if (randomNum > 0.5) {
                     alert("HEADS");
@@ -259,12 +256,6 @@ $(document).ready(function(){
                 else {
                     alert("TAILS");
                     headCount = 0;
-                    break;
                 }
-            var flipCount ++;
-        }
-        else {
-            headCount = 0;
-        }
     };
 });
