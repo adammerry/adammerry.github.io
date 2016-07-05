@@ -251,23 +251,17 @@ $(document).ready(function(){
         while (headCount < 3) {
             var randomNum = Math.random();
                 if (randomNum > 0.5) {
-                    var flip = 1;
                     alert("HEADS");
-                }
-                else {
-                    var flip = 0;
-                    alert("TAILS");
-                }
-            var flipCount ++;
-                if (flip === 1) {
                     headCount++;
                     alert ("You have " + headCount + " heads in a row");
                 }
                 else {
+                    alert("TAILS");
                     headCount = 0;
                     break;
                 }
-        alert("It has taken " + flipCount + " flips to get 3 heads in a row");
+            var flipCount ++;
         }
+        alert("It took you " + flipCount + " flips to get 3 heads in a row");
     };
 });
