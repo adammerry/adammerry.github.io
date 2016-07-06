@@ -421,6 +421,7 @@ legend {
 	display: block;
 	font-size: 30px;
 	cursor: pointer;
+	border: 2px solid black;
 }
 
 #coinQuestionMark {
