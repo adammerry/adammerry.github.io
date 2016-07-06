@@ -71,7 +71,7 @@ $(document).ready(function(){
     });
     
     $("img#cowpic").hover(function(){
-    	$(this).animate({top:"+=10px"},500);
+    	$(this).animate({top:"+=10px", left:"+=10px"},500);
     },
     function(){
     	$(this).animate({top:"-=10px"},500);
