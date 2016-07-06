@@ -96,6 +96,7 @@ $(document).ready(function(){
     
     function updateClock() {
 
+    /* function for displaying and updating date */
     var today = new Date();
     var s = today.getSeconds();
     var m = today.getMinutes();
@@ -142,6 +143,7 @@ $(document).ready(function(){
     }
     updateClock();
     
+    /*function that asks for name with an alert*/
     document.getElementById("alertButton").onclick = function() {
     var person = window.prompt("Please enter your name", "Dr. Mantis Toboggan");
     if (isNaN(person) === false && person !=="")  {
@@ -156,6 +158,7 @@ $(document).ready(function(){
     }
     };
     
+    /*function that asks for age with an alert*/
     document.getElementById("ageButton").onclick = function() {
     var age = window.prompt("Please enter your age in years", "0");
     if (isNaN(age) === true && age !=="") {
@@ -170,6 +173,7 @@ $(document).ready(function(){
     }
     };
 
+    /*function that shows the div that contains the name and age buttons*/
     document.getElementById("showButtons").onclick = function() {
       //get the div that contains the buttons we want to show
       var buttonDiv = document.getElementById("infoButtons");
@@ -192,6 +196,7 @@ $(document).ready(function(){
       }
     };
     
+    /*switch for boston sports pic and text*/
     document.getElementById("bostonsports").onclick = function() {
         var favTeam = window.prompt("Enter the name of your favorite Boston sports team", "Ex. 'Bruins'").toUpperCase();
             switch (favTeam) {
@@ -241,10 +246,12 @@ $(document).ready(function(){
         }
     };
     
+    /*leap years*/
     for (i = 2016; i <2057; i += 4) {
         document.getElementById("leapYear").innerHTML += (i + " is a leap year" + "<br>");
     }
     
+    /*coin toss*/
     var headCount = 0;
     document.getElementById("coin").onclick = function() {
             var randomNum = Math.random();
