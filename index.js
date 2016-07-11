@@ -266,7 +266,6 @@ $(document).ready(function(){
                 }
     };
     $("#bigGulps").click(function(){
-        $("#iframe2")[0].src += "&autoplay=1";
-        $(this).unbind("click");//or some other way to make sure that this only happens once
+        $("#iframe2").play();
     });
 });
