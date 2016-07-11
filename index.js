@@ -265,7 +265,8 @@ $(document).ready(function(){
                     headCount = 0;
                 }
     };
-    $('bigGulps').click(function(){
-        $('.iframe2').play();
-    }
+    $("#bigGulps").click(function(){
+        $("#iframe2")[0].src += "&autoplay=1";
+        $(this).unbind("click");//or some other way to make sure that this only happens once
+    });
 });
