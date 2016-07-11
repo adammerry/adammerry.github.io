@@ -437,3 +437,7 @@ legend {
 	text-decoration: underline;
 	font-size: 16px;
 }
+
+#hiddenAudio {
+	display: hidden;
+}
