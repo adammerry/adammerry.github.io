@@ -266,6 +266,6 @@ $(document).ready(function(){
                 }
     };
     document.getElementById("bigGulps").onclick = function() {
-        document.getElementById("iframe2").play
+        document.getElementById("iframe2").play();
     }
 });
