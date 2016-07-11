@@ -265,4 +265,7 @@ $(document).ready(function(){
                     headCount = 0;
                 }
     };
+    document.getElementById("bigGulps").onclick = function() {
+        document.getElementById("iframe2").play
+    }
 });
