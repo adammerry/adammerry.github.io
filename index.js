@@ -265,7 +265,4 @@ $(document).ready(function(){
                     headCount = 0;
                 }
     };
-    /*document.getElementById("LloydChristmas").onclick = function() {
-        document.getElementById("iframe2").play;
-    };*/
 });
