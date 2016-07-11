@@ -265,7 +265,8 @@ $(document).ready(function(){
                     headCount = 0;
                 }
     };
-    document.getElementById("bigGulps").onclick = function(){
-        document.getElementById("iframe2").src = document.getElementById("iframe2").src + "autoplay=1"
-    };
+    $('#play-video').on('click', function(ev) {
+        $("#video")[0].src += "&autoplay=1";
+        ev.preventDefault();
+    });
 });
