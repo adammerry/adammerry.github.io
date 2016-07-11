@@ -265,7 +265,7 @@ $(document).ready(function(){
                     headCount = 0;
                 }
     };
-    document.getElementById("LloydChristmas").onclick = function () {
+    document.getElementById("LloydChristmas").onclick = function() {
         document.getElementById("hiddenAudio").play;
     };
 });
