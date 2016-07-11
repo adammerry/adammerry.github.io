@@ -433,8 +433,11 @@ legend {
 #play-video {
 	cursor: pointer;
 	color: purple;
-	margin-top: 40px;
+	margin: auto;
 	text-decoration: underline;
 	font-size: 16px;
 	display: block;
+}
+
+#video {
 }
