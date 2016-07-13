@@ -10,7 +10,7 @@ body {
 	background-color: #e6dedc;
 	margin: 0;
   	justify-content: center;
-  	height: 5400px;
+  	height: 5300px;
 }
 
 #page-wrap {
@@ -432,6 +432,5 @@ legend {
 
 #whileLoop {
 	color: black;
-	margin-top: 40px;
-	display: block;
+	margin-top: 50px;
 }
