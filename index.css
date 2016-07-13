@@ -433,4 +433,5 @@ legend {
 #whileLoop {
 	color: black;
 	top: 40px;
+	display: block;
 }
