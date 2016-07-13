@@ -269,7 +269,7 @@ $(document).ready(function(){
     function numbersWhile() {
         var j=0;
         while (j<11) {
-            document.getElementById("whileLoop").innerHTML += j + " is a number";
+            document.getElementById("whileLoop").innerHTML += j + " is a number, ";
             j++;
         }
     };
