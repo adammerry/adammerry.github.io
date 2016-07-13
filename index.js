@@ -265,4 +265,8 @@ $(document).ready(function(){
                     headCount = 0;
                 }
     };
+    while (i<11) {
+        document.getElementById("whileLoop").innerHTML += i + " is the first number";
+        i++;
+    }
 });
