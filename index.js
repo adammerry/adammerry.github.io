@@ -265,9 +265,13 @@ $(document).ready(function(){
                     headCount = 0;
                 }
     };
-    var j=0;
-    while (j<11) {
-        document.getElementById("whileLoop").innerHTML += j + " is the first number";
-        j++;
-    }
+    
+    function numbersWhile() {
+        var j=0;
+        while (j<11) {
+            document.getElementById("whileLoop").innerHTML += j + " is a number";
+            j++;
+        }
+    };
+    numbersWhile();
 });
