@@ -190,12 +190,6 @@ h3 {
 	cursor: pointer;
 }
 
-/* Where the input is */
-form {
-    	display: inline-block;
-    	cursor:pointer;
-}
-
 /* Adding button */
 #addbutton{
     	display: inline-block;
@@ -218,60 +212,12 @@ form {
 	cursor:pointer;
 }
 
-/* class containing names of the other animals */
-h4 {
-	color: #000080;
-	font-size: 20px;
-}
-
-img#bisonpic {
-	border: 2px solid #000080;
-	border-radius: 16px;
-}
-
-img#ostrichpic {
-	border: 2px solid #000080;
-	border-radius: 16px;
-}
-
-img#goatpic {
-	border: 2px solid #000080;
-	border-radius: 16px;
-}
-
-img#cowpic {
-	position: absolute;
-	top: 800px;
-	left: 5px;
-	z-index: 100;
-}
-
-.accordion {
-	color: #006400;
-	font-size: 18px;
-}
-
 #snake {
 	position: relative;
 	border: 1px solid green;
     	background: yellow;
     	width: 200px;
     	height: 100px;
-}
-
-#light {
-	width: 100%;
-}
-
-#lightbulb {
-	width: 100px;
-	height: 200px;
-	padding-left: 75px;
-}
-
-/* for all of the elements of the table holding lightbulb pics & buttons*/
-td {
- 	padding-right: 80px;
 }
 
 /*contunuously updating date*/
@@ -308,129 +254,4 @@ td {
 	height: 100px;
 	background-color: #ff99ff;
 	padding-right: 20px;
-}
-
-/*styling for the buttons that ask for name and age*/
-#alertButton { 
-    font-size: 12px;
-    background-color: #EBF5FF;
-    color: #4312AE;
-    border: 2px solid black;
-    box-shadow: 4px 4px 4px #98913e;
-    margin-right: 100px;
-    position: relative;
-    display:inline;
-  }
-#alertButton:hover, #alertButton:focus, #alertButton:active { 
-    /* swap colors */
-    color: #EBF5FF;
-    background-color: #4312AE;
-    cursor: pointer; /* displays a hand */
-  }
-
-#ageButton { 
-    font-size: 12px;
-    background-color: #EBF5AA;
-    color: #4312AE;
-    border: 2px solid black;
-    box-shadow: 4px 4px 4px #9b9e3e;
-    margin: auto;
-    position: relative;
-    display:inline;
-  }
-#ageButton:hover, #ageButton:focus, #ageButton:active { 
-    /* swap colors */
-    color: #EBF4FF;
-    background-color: #13d2AE;
-    cursor: crosshair; /* displays a crosshair */
-  }
-
-/*fast animals video*/
-#fastAnimals {
-	border: 1px solid #34accc;
-	display: block;
-	margin: auto;
-}
-
-/*form styling*/
-form {
-	background-color: #b4eeb4;
-	display: inline-block;
-	text-align: left;
-	width: 700px;
-	color: #000000;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-/*top title on the form*/
-legend {
-	font-style: italic;
-}
-
-/*div with sports buttons and facts in it*/
-#sportsdiv {
-	display: block;
-	margin-bottom: 20px;
-}
-
-/*button that when pressed asks about ur fav sports team*/
-#bostonsports {
-	background-color: #BDA0CB;
-	cursor: pointer;
-	margin: auto;
-	display: block;
-}
-
-#bostonsports:hover {
-	box-shadow: 10px 10px yellow;
-}
-
-/*pararaph telling facts about sports team */
-#sportsfacts {
-	color: blue;
-	display: block;
-	font-size: 20px;
-	margin-top: 50px;
-}
-
-/*picture of the user inputted sports team*/
-#sportsPic {
-	border-radius: 50%;
-	width: 500px;
-	height: 500px;
-	display: block;
-	margin: auto;
-}
-
-/*text displaying leap years*/
-#leapYear {
-	color: #2d4000;
-}
-
-/*div that creates coin circle*/
-#coin {
-	border-radius: 50%;
-	height: 150px;
-    	width: 150px;
-    	background-color: gray;
-	font-weight: bold;
-	font-family: sans-serif;
-	color: white;
-	margin: auto;
-	display: block;
-	font-size: 30px;
-	cursor: pointer;
-	border: 2px solid black;
-}
-
-#coinQuestionMark {
-	text-align: center;
-	position: relative;
-	top: 30px;
-}
-
-#whileLoop {
-	color: black;
-	margin-top: 50px;
 }
