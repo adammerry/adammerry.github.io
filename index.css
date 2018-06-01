@@ -32,13 +32,7 @@ img#richguy {
   	font-size: 16px;
 }
 
-h1 {
-	border: 5px solid #4df67a;
-	padding: 400px;
-  	
-}
-
-/* holds the about me thing */
+/* holds contact info */
 h2 {
 	font-size: 20px;
 	font-family: "Courier New";
