@@ -9,7 +9,7 @@ body {
 	text-align: center;
 	margin: 0;
   	justify-content: center;
-  	height: 2000px;
+  	height: 500px;
 }
 
 #page-wrap {
@@ -55,4 +55,14 @@ h3 {
 	max-width: 800px;
 	margin: auto;
 	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#contactinfo {
+	font-size: 16px;
+	color: #000000;
+	max-width: 800px;
+	margin: auto;
+	padding-top: 0px;
+	padding-bottom: 10px;
 }
