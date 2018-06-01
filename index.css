@@ -23,6 +23,10 @@ img#richguy {
 	border-radius: 25px;
 }
 
+img#pennstatue {
+	border: 2px solid #000000;
+}
+
 .main {
 	padding: 10px;
 	color: #000000;
