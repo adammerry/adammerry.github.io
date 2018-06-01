@@ -18,7 +18,7 @@ body {
 }
 
 img#richguy {
-	top: 20px;
+	padding-top: 40px;
 	border: 2px solid #000000;
 	border-radius: 25px;
 }
