@@ -37,6 +37,19 @@ h2 {
 	margin: 20px auto 20px;
 }
 
+/* Text to introduce list and also fun facts */
+h3 {
+    	font-family:"Courier New", Courier, monospace;
+	color: #545454;
+	font-size: 18px;
+	border: 2px solid #000000;
+	margin-top: 10px;
+	margin-left: 26px;
+	margin-right: 700px;
+	text-align: left;
+	cursor: pointer;
+}
+
 /* paragraph explaining who I am */
 #paragraph{
 	font-size: 18px;
