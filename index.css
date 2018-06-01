@@ -10,7 +10,7 @@ body {
 	background-color: #e6dedc;
 	margin: 0;
   	justify-content: center;
-  	height: 5100px;
+  	height: 2000px;
 }
 
 #page-wrap {
@@ -23,18 +23,6 @@ nav {
 	font-size: 16px;
 	font-family: 'Lucida Sans Unicode', "Lucida Grande", sans-serif;
 	font-weight: bold;
-}
-
-nav ul {
-	display: block;
-	font-weight: normal;
-}
-
-nav li {
-	margin: 0;
-	padding: 50px;
-	display: inline;
-	font-weight: normal;
 }
 
 img#richguy {
@@ -66,12 +54,6 @@ h2 {
 	width: 160px;
 	font-style: bold;
 	
-}
-
-/* when about me is clicked */
-h2:active {
-	position: relative;
-	top: 2px;
 }
 
 /* paragraph explaining who I am */
