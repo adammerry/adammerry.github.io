@@ -1,2 +1,2 @@
 # adammerry.github.io
-Personal Website
+Personal Web Page
