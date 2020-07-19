@@ -36,6 +36,16 @@ body {
     width: 650px;
 }
 
+.projectBox {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    border-style: solid;
+    border-color: MidnightBlue;
+    border-radius: 5px;
+    background-color: Lavender;
+    margin: 30px auto 30px auto;
+    width: 600px;
+}
+
 .sectionTitle {
     margin-top: 0;
     margin-bottom: 10px;
@@ -67,6 +77,37 @@ body {
     margin-top: 6px;
 }
 
+.projectTitle {
+    color: White;
+    background-color: MidnightBlue;
+    font-size: 18px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+    height: 30px;
+    padding-top: 10px;
+    margin-top: 0px;
+}
+
+.description {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: Black;
+    background-color: White;
+    border-radius: 5px;
+    width: 440px;
+    padding: 10px;
+}
+
+.link {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #name {
     font-size: 40px;
 }
@@ -89,5 +130,19 @@ body {
 }
 
 #work {
-    height: 70px;
+    height: 1000px;
+}
+
+#fundamentalsAndMore {
+    height: 380px;
+}
+
+#rbTreeImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 450px;
+    border-style: solid;
+    border-radius: 5px;
 }
