@@ -71,13 +71,6 @@ body {
     padding-left: 16px;
 }
 
-.subjects {
-    color: Black;
-    font-size: 16px;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    margin-top: 6px;
-}
-
 .projectTitle {
     color: White;
     background-color: MidnightBlue;
@@ -127,10 +120,6 @@ body {
 #headEmail {
     font-size: 14px;
     width: 200px;
-}
-
-#interests {
-    height: 80px;
 }
 
 #education {
